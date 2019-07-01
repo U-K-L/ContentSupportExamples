@@ -26,6 +26,7 @@ var ContentSupportResult;
 var ContentSupportUserID = 0;
 var server;
 const url = `https://patreonsupport.herokuapp.com/ContentSupport/Patreon/Authorize/${EmailContentSupport}/${AppNameContentSupport}/RPGMAKER`
+var ContentSupportCounter = 0;
 
 async function OpenContentSupportOneStep(){
     var input = parameters['UserInputVariable'];
@@ -40,6 +41,7 @@ async function OpenContentSupportOneStep(){
 }
 
 async function OpenContentSupportTwoStep(){
+    ContentSupportCounter = 0;
     var input = parameters['UserInputVariable'];
     console.log( $gameVariables.value(input))
     var EnabledHTML = parameters['Browser-Support']
@@ -77,12 +79,19 @@ async function GetPatronTwoStep(){
 }
 
 async function ContentSupportGetIP(){
+    var input = parameters['UserInputVariable'];
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         let {ip} = JSON.parse(this.responseText);
-        console.log(ip);
-        ContentSupportGetUserID(ip);
+        if(ip && ContentSupportCounter < 3){
+            console.log(ip);
+            ContentSupportGetUserID(ip);
+            ContentSupportCounter += 1;
+        }
+        else{
+            $gameVariables.setValue(input, 0);
+        }
     }
     };
     xhttp.open("GET", "https://api6.ipify.org?format=json", true);
