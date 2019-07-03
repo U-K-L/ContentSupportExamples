@@ -3,5 +3,5 @@
 var $plugins =
 [
 {"name":"Community_Basic","status":true,"description":"Basic plugin for manipulating important parameters.","parameters":{"cacheLimit":"20","screenWidth":"816","screenHeight":"624","changeWindowWidthTo":"","changeWindowHeightTo":"","renderingMode":"auto","alwaysDash":"off"}},
-{"name":"Patreon","status":true,"description":"Connects to your patreon account to check if player is pledged to you.","parameters":{"email":"Kuroten01@gmail.com","AppName":"ContentSupport","UserInputVariable":"3","Browser-Support":"false"}}
+{"name":"Patreon","status":true,"description":"Connects to your patreon account to check if player is pledged to you.","parameters":{"email":"Kuroten01@gmail.com","AppName":"ContentSupport","UserInputVariable":"3","Browser-Support":"true"}}
 ];

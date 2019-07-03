@@ -29,6 +29,7 @@ const url = `https://patreonsupport.herokuapp.com/ContentSupport/Patreon/Authori
 var ContentSupportCounter = 0;
 
 async function OpenContentSupportOneStep(){
+    ContentSupportCounter = 0;
     var input = parameters['UserInputVariable'];
     var EnabledHTML = parameters['Browser-Support']
     if(EnabledHTML == 'true'){
