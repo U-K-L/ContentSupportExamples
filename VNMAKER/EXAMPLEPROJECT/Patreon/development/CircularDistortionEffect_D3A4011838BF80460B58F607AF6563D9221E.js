@@ -1,0 +1,71 @@
+var CircularDistortionEffect,
+  extend = function(child, parent) { for (var key in parent) { if (hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },
+  hasProp = {}.hasOwnProperty;
+
+CircularDistortionEffect = (function(superClass) {
+  extend(CircularDistortionEffect, superClass);
+
+
+  /**
+  * An example effect to show you how to define your own shader-based effects. It is important
+  * that the name-property matches the name of the registered EffectInfo in gs.Main.setupEffects. Keep in mind that using
+  * custom OpenGL/GLSL shaders binds your game to platforms with OpenGL support.
+  *
+  * All effects are fragment/pixel shaders by default.
+  *
+  * @module gs
+  * @class CircularDistortionEffect
+  * @extends gs.CircularDistortionEffect
+  * @memberof gs
+  * @constructor
+   */
+
+  function CircularDistortionEffect(data) {
+    CircularDistortionEffect.__super__.constructor.call(this, data);
+    this.type = gs.GraphicEffectType.BASE;
+    this.name = "circularDistortion";
+  }
+
+
+  /**
+  * Setup the effect for rendering. All uniforms/shader-inputs need to be set here.
+  *
+  * @method setup
+  * @param {gs.Effect} effect - The shader-effect/program object which allows you to set uniforms.
+  * @param {gs.RenderTask} task - The render-task object contains additional information about the object being rendered.
+  * @param {gs.Texture2D} texture - The texture used for rendering.
+   */
+
+  CircularDistortionEffect.prototype.setup = function(effect, task, texture) {
+    effect.setVector2Value("TextureMax", Graphics.width / texture.realWidth, Graphics.height / texture.realHeight);
+    return effect.setFloatValue("CircDistTime", Graphics.frameCount / 50);
+  };
+
+
+  /**
+  * Called before the graphics system is initialized to register your custom shader-based effect. See
+  * gs.Main.setupEffects for more info.
+  *
+  * @method register
+   */
+
+  CircularDistortionEffect.register = function() {
+    return gs.Effect.registerEffect(new gs.EffectInfo({
+      type: gs.GraphicEffectType.BASE,
+      name: "circularDistortion",
+      defines: [""],
+      uniforms: ["uniform sampler2D Texture0;", "uniform float CircDistTime;", "uniform vec2 TextureMax;"],
+      varying: ["varying vec2 textureCoord;", "varying vec4 vColor;"],
+      functionCalls: ["circular_distortion();"],
+      functions: ["void circular_distortion()\n{\n    vec2 uv = textureCoord;\n    uv.x += sin(uv.y * 10.0 + CircDistTime) / 10.0;\n    uv.y += cos(uv.x * 10.0 + CircDistTime) / 10.0;\n\n    gl_FragColor = texture2D(Texture0, max(mod(uv, TextureMax), 0.0));\n    gl_FragColor[3] *= vColor[3]\n}"]
+    }));
+  };
+
+  return CircularDistortionEffect;
+
+})(gs.GraphicEffect);
+
+gs.CircularDistortionEffect = CircularDistortionEffect;
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQU9BLElBQUEsd0JBQUE7RUFBQTs7O0FBQU07Ozs7QUFDRjs7Ozs7Ozs7Ozs7Ozs7RUFhYSxrQ0FBQyxJQUFEO0lBQ1QsMERBQU0sSUFBTjtJQUNBLElBQUMsQ0FBQSxJQUFELEdBQVEsRUFBRSxDQUFDLGlCQUFpQixDQUFDO0lBQzdCLElBQUMsQ0FBQSxJQUFELEdBQVE7RUFIQzs7O0FBS2I7Ozs7Ozs7OztxQ0FRQSxLQUFBLEdBQU8sU0FBQyxNQUFELEVBQVMsSUFBVCxFQUFlLE9BQWY7SUFDSCxNQUFNLENBQUMsZUFBUCxDQUF1QixZQUF2QixFQUFxQyxRQUFRLENBQUMsS0FBVCxHQUFpQixPQUFPLENBQUMsU0FBOUQsRUFBeUUsUUFBUSxDQUFDLE1BQVQsR0FBa0IsT0FBTyxDQUFDLFVBQW5HO1dBQ0EsTUFBTSxDQUFDLGFBQVAsQ0FBcUIsY0FBckIsRUFBcUMsUUFBUSxDQUFDLFVBQVQsR0FBc0IsRUFBM0Q7RUFGRzs7O0FBSVA7Ozs7Ozs7RUFNQSx3QkFBQyxDQUFBLFFBQUQsR0FBVyxTQUFBO1dBRVAsRUFBRSxDQUFDLE1BQU0sQ0FBQyxjQUFWLENBQTZCLElBQUEsRUFBRSxDQUFDLFVBQUgsQ0FBYztNQUV2QyxJQUFBLEVBQU0sRUFBRSxDQUFDLGlCQUFpQixDQUFDLElBRlk7TUFJdkMsSUFBQSxFQUFNLG9CQUppQztNQU12QyxPQUFBLEVBQVMsQ0FBQyxFQUFELENBTjhCO01BUXZDLFFBQUEsRUFBVSxDQUFDLDZCQUFELEVBQWdDLDZCQUFoQyxFQUErRCwwQkFBL0QsQ0FSNkI7TUFVdkMsT0FBQSxFQUFTLENBQUMsNEJBQUQsRUFBK0Isc0JBQS9CLENBVjhCO01BWXZDLGFBQUEsRUFBZSxDQUFDLHdCQUFELENBWndCO01BY3ZDLFNBQUEsRUFBVyxDQUFDLHFSQUFELENBZDRCO0tBQWQsQ0FBN0I7RUFGTzs7OztHQXJDd0IsRUFBRSxDQUFDOztBQWtFMUMsRUFBRSxDQUFDLHdCQUFILEdBQThCIiwic291cmNlc0NvbnRlbnQiOlsiIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09XG4jXG4jICAgU2NyaXB0OiBDaXJjdWxhckRpc3RvcnRpb25FZmZlY3RcbiNcbiMgICAkJENPUFlSSUdIVCQkXG4jXG4jID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT1cbmNsYXNzIENpcmN1bGFyRGlzdG9ydGlvbkVmZmVjdCBleHRlbmRzIGdzLkdyYXBoaWNFZmZlY3RcbiAgICAjIyMqXG4gICAgKiBBbiBleGFtcGxlIGVmZmVjdCB0byBzaG93IHlvdSBob3cgdG8gZGVmaW5lIHlvdXIgb3duIHNoYWRlci1iYXNlZCBlZmZlY3RzLiBJdCBpcyBpbXBvcnRhbnRcbiAgICAqIHRoYXQgdGhlIG5hbWUtcHJvcGVydHkgbWF0Y2hlcyB0aGUgbmFtZSBvZiB0aGUgcmVnaXN0ZXJlZCBFZmZlY3RJbmZvIGluIGdzLk1haW4uc2V0dXBFZmZlY3RzLiBLZWVwIGluIG1pbmQgdGhhdCB1c2luZ1xuICAgICogY3VzdG9tIE9wZW5HTC9HTFNMIHNoYWRlcnMgYmluZHMgeW91ciBnYW1lIHRvIHBsYXRmb3JtcyB3aXRoIE9wZW5HTCBzdXBwb3J0LlxuICAgICpcbiAgICAqIEFsbCBlZmZlY3RzIGFyZSBmcmFnbWVudC9waXhlbCBzaGFkZXJzIGJ5IGRlZmF1bHQuXG4gICAgKlxuICAgICogQG1vZHVsZSBnc1xuICAgICogQGNsYXNzIENpcmN1bGFyRGlzdG9ydGlvbkVmZmVjdFxuICAgICogQGV4dGVuZHMgZ3MuQ2lyY3VsYXJEaXN0b3J0aW9uRWZmZWN0XG4gICAgKiBAbWVtYmVyb2YgZ3NcbiAgICAqIEBjb25zdHJ1Y3RvclxuICAgICMjI1xuICAgIGNvbnN0cnVjdG9yOiAoZGF0YSkgLT5cbiAgICAgICAgc3VwZXIoZGF0YSlcbiAgICAgICAgQHR5cGUgPSBncy5HcmFwaGljRWZmZWN0VHlwZS5CQVNFXG4gICAgICAgIEBuYW1lID0gXCJjaXJjdWxhckRpc3RvcnRpb25cIlxuICAgICBcbiAgICAjIyMqXG4gICAgKiBTZXR1cCB0aGUgZWZmZWN0IGZvciByZW5kZXJpbmcuIEFsbCB1bmlmb3Jtcy9zaGFkZXItaW5wdXRzIG5lZWQgdG8gYmUgc2V0IGhlcmUuXG4gICAgKlxuICAgICogQG1ldGhvZCBzZXR1cFxuICAgICogQHBhcmFtIHtncy5FZmZlY3R9IGVmZmVjdCAtIFRoZSBzaGFkZXItZWZmZWN0L3Byb2dyYW0gb2JqZWN0IHdoaWNoIGFsbG93cyB5b3UgdG8gc2V0IHVuaWZvcm1zLlxuICAgICogQHBhcmFtIHtncy5SZW5kZXJUYXNrfSB0YXNrIC0gVGhlIHJlbmRlci10YXNrIG9iamVjdCBjb250YWlucyBhZGRpdGlvbmFsIGluZm9ybWF0aW9uIGFib3V0IHRoZSBvYmplY3QgYmVpbmcgcmVuZGVyZWQuXG4gICAgKiBAcGFyYW0ge2dzLlRleHR1cmUyRH0gdGV4dHVyZSAtIFRoZSB0ZXh0dXJlIHVzZWQgZm9yIHJlbmRlcmluZy5cbiAgICAjIyMgICBcbiAgICBzZXR1cDogKGVmZmVjdCwgdGFzaywgdGV4dHVyZSkgLT5cbiAgICAgICAgZWZmZWN0LnNldFZlY3RvcjJWYWx1ZShcIlRleHR1cmVNYXhcIiwgR3JhcGhpY3Mud2lkdGggLyB0ZXh0dXJlLnJlYWxXaWR0aCwgR3JhcGhpY3MuaGVpZ2h0IC8gdGV4dHVyZS5yZWFsSGVpZ2h0KVxuICAgICAgICBlZmZlY3Quc2V0RmxvYXRWYWx1ZShcIkNpcmNEaXN0VGltZVwiLCBHcmFwaGljcy5mcmFtZUNvdW50IC8gNTApXG4gICAgICAgIFxuICAgICMjIypcbiAgICAqIENhbGxlZCBiZWZvcmUgdGhlIGdyYXBoaWNzIHN5c3RlbSBpcyBpbml0aWFsaXplZCB0byByZWdpc3RlciB5b3VyIGN1c3RvbSBzaGFkZXItYmFzZWQgZWZmZWN0LiBTZWVcbiAgICAqIGdzLk1haW4uc2V0dXBFZmZlY3RzIGZvciBtb3JlIGluZm8uXG4gICAgKlxuICAgICogQG1ldGhvZCByZWdpc3RlclxuICAgICMjIyAgICBcbiAgICBAcmVnaXN0ZXI6IC0+XG4gICAgICAgICMgVGhpcyBpcyBhbiBleGFtcGxlIG9mIGhvdyB0byByZWdpc3RlciB5b3VyIG93biBjdXN0b20gc2hhZGVyLWJhc2VkIGVmZmVjdC5cbiAgICAgICAgZ3MuRWZmZWN0LnJlZ2lzdGVyRWZmZWN0KG5ldyBncy5FZmZlY3RJbmZvKHtcbiAgICAgICAgICAgICMgVXNlIEJBU0UgaWYgdGhlIGVmZmVjdCBvdmVyd3JpdGVzIGdsX0ZyYWdDb2xvci4gVXNlIEFERE9OIGlmIHRoZSBlZmZlY3QgdXNlcyBnbF9GcmFnQ29sb3IgYXMgaW5wdXQuXG4gICAgICAgICAgICB0eXBlOiBncy5HcmFwaGljRWZmZWN0VHlwZS5CQVNFLFxuICAgICAgICAgICAgIyBUaGUgbmFtZS1wcm9wZXJ0eSBuZWVkcyB0byBtYXRjaCB0aGUgdmFsdWUgb2YgdGhlIG5hbWUtcHJvcGVydHkgb2YgdGhlIGVmZmVjdC1jbGFzcy5cbiAgICAgICAgICAgIG5hbWU6IFwiY2lyY3VsYXJEaXN0b3J0aW9uXCIsXG4gICAgICAgICAgICAjIHByZXByb2Nlc3NvciBkZWZpbmVzLCB0aGlzIG5vdCB1c2VkIGluIG1vc3QgY2FzZXMgZXhjZXB0IGZvciBpbnRlcm5hbCBlZmZlY3RzLlxuICAgICAgICAgICAgZGVmaW5lczogW1wiXCJdLFxuICAgICAgICAgICAgIyBBIGxpc3Qgb2YgYWxsIHVuaWZvcm1zIHdpdGggY29ycmVjdCBzeW50YXguXG4gICAgICAgICAgICB1bmlmb3JtczogW1widW5pZm9ybSBzYW1wbGVyMkQgVGV4dHVyZTA7XCIsIFwidW5pZm9ybSBmbG9hdCBDaXJjRGlzdFRpbWU7XCIsIFwidW5pZm9ybSB2ZWMyIFRleHR1cmVNYXg7XCJdLFxuICAgICAgICAgICAgIyBBIGxpc3Qgb2YgYWxsIHZhcnlpbmdzIHdpdGggY29ycmVjdCBzeW50YXhcbiAgICAgICAgICAgIHZhcnlpbmc6IFtcInZhcnlpbmcgdmVjMiB0ZXh0dXJlQ29vcmQ7XCIsIFwidmFyeWluZyB2ZWM0IHZDb2xvcjtcIl0sXG4gICAgICAgICAgICAjIEEgbGlzdCBvZiBhbGwgZnVuY3Rpb25zIGNhbGxzIHdpdGggY29ycmVjdCBzeW50YXguXG4gICAgICAgICAgICBmdW5jdGlvbkNhbGxzOiBbXCJjaXJjdWxhcl9kaXN0b3J0aW9uKCk7XCJdLFxuICAgICAgICAgICAgIyBBIGxpc3Qgb2YgYWxsIGZ1bmN0aW9ucyB3aXRoIGNvcnJlY3Qgc3ludGF4LlxuICAgICAgICAgICAgZnVuY3Rpb25zOiBbXCJcIlwiXG4gICAgICAgICAgICAgICAgdm9pZCBjaXJjdWxhcl9kaXN0b3J0aW9uKClcbiAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgIHZlYzIgdXYgPSB0ZXh0dXJlQ29vcmQ7XG4gICAgICAgICAgICAgICAgICAgIHV2LnggKz0gc2luKHV2LnkgKiAxMC4wICsgQ2lyY0Rpc3RUaW1lKSAvIDEwLjA7XG4gICAgICAgICAgICAgICAgICAgIHV2LnkgKz0gY29zKHV2LnggKiAxMC4wICsgQ2lyY0Rpc3RUaW1lKSAvIDEwLjA7XG4gICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgIGdsX0ZyYWdDb2xvciA9IHRleHR1cmUyRChUZXh0dXJlMCwgbWF4KG1vZCh1diwgVGV4dHVyZU1heCksIDAuMCkpO1xuICAgICAgICAgICAgICAgICAgICBnbF9GcmFnQ29sb3JbM10gKj0gdkNvbG9yWzNdXG4gICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgXCJcIlwiXVxuICAgICAgICB9KSlcblxuZ3MuQ2lyY3VsYXJEaXN0b3J0aW9uRWZmZWN0ID0gQ2lyY3VsYXJEaXN0b3J0aW9uRWZmZWN0ICAgICBcbiJdfQ==
+//# sourceURL=CircularDistortionEffect_13.js

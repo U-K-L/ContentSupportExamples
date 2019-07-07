@@ -1,0 +1,18 @@
+{
+    "uid": "8B6132AB6738544C483BE43201421F4804E7",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "type": "game_script",
+        "name": "Show Message Script Extension",
+        "order": 1,
+        "content": "",
+        "parentId": "458BF68D6590614ACD4ADE509E59C65B7471",
+        "folder": true,
+        "scriptType": 0
+    },
+    "summary": [
+        "name",
+        "type"
+    ]
+}

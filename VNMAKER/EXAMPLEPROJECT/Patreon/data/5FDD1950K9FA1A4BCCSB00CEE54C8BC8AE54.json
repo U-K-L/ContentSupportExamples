@@ -1,0 +1,163 @@
+{
+    "uid": "5FDD1950K9FA1A4BCCSB00CEE54C8BC8AE54",
+    "isLoaded": true,
+    "lastModificationTime": 1424021629456,
+    "items": {
+        "name": "One-Step",
+        "type": "data_record",
+        "order": 1,
+        "category": "commonEvents",
+        "data": {
+            "name": "One-Step",
+            "startCondition": 0,
+            "conditionEnabled": false,
+            "parallel": false,
+            "parameters": [],
+            "commands": [
+                {
+                    "id": "gs.Script",
+                    "params": {
+                        "script": "OpenContentSupportOneStep()"
+                    },
+                    "indent": 0,
+                    "expanded": true,
+                    "uid": "930644E800BB5549C55862889417AE709AB0"
+                },
+                {
+                    "id": "gs.ShowMessage",
+                    "params": {
+                        "waitForCompletion": 1,
+                        "duration": 15,
+                        "expressionId": null,
+                        "custom": {
+                            "object": {
+                                "x": 0,
+                                "y": 0,
+                                "size": {
+                                    "width": 300,
+                                    "height": 100
+                                }
+                            }
+                        },
+                        "message": {
+                            "lcId": "9C7E912D4062294C826982B25C654A69CB69",
+                            "defaultText": "Continue using the browser...."
+                        },
+                        "position": 0,
+                        "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                        "partial": 0,
+                        "fieldFlags": {
+                            "duration": 1
+                        },
+                        "expressions": [],
+                        "animations": []
+                    },
+                    "indent": 0,
+                    "uid": "9B59C4BA3228D0424219BA41FA0939A2B4A8",
+                    "expanded": true
+                },
+                {
+                    "id": "gs.Script",
+                    "params": {
+                        "script": "ContentSupportGetIP()"
+                    },
+                    "indent": 0,
+                    "expanded": true,
+                    "uid": "27B8367C394B754A7A88D266614740A23031"
+                },
+                {
+                    "id": "gs.InputNumber",
+                    "params": {
+                        "variable": {
+                            "name": "Input",
+                            "index": 2,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "digits": 5,
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "uid": "BB46EBC86488A74B3E49BC54E7846C38380D",
+                    "indent": 0
+                },
+                {
+                    "id": "gs.InputText",
+                    "params": {
+                        "variable": {
+                            "scope": 1,
+                            "index": 0,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "letters": 6
+                    },
+                    "indent": 0,
+                    "uid": "9951832C0B1E824CA028D523A46E44B26BED"
+                },
+                {
+                    "id": "gs.Condition",
+                    "params": {
+                        "variable": {
+                            "scope": 1,
+                            "index": 0,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "numberValue": 0,
+                        "textValue": "",
+                        "switchValue": 0,
+                        "valueType": 0,
+                        "operation": 0,
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "uid": "B9DFB591830C1748BF6A58B357544429366C",
+                    "indent": 0
+                }
+            ],
+            "index": "5FDD1950K9FA1A4BCCSB00CEE54C8BC8AE54",
+            "booleanVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "singleInstance": true,
+            "defaultExpressionId": "BF7CB12110894142C299D341A545C910AA86",
+            "numberVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "stringVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0,
+                    "domain": "com.degica.vnm.default"
+                }
+            ]
+        },
+        "id": "5FDD1950K9FA1A4BCCSB00CEE54C8BC8AE54",
+        "parentId": "category_commonEvents",
+        "localizableStrings": {
+            "9C7E912D4062294C826982B25C654A69CB69": {
+                "t": "Continue using the browser....",
+                "d": {
+                    "cid": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "eid": "9B59C4BA3228D0424219BA41FA0939A2B4A8"
+                }
+            }
+        }
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

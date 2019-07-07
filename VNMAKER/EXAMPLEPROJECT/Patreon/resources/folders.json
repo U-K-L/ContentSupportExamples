@@ -1,0 +1,3980 @@
+[
+    {
+        "path": "Graphics",
+        "resources": []
+    },
+    {
+        "path": "Graphics/Characters",
+        "resources": [
+            {
+                "type": "folder",
+                "name": "57434A8960D2A143381AF4C7848051225D46",
+                "displayName": "Ace",
+                "resources": [
+                    {
+                        "type": "folder",
+                        "name": "AEBB49B350E2B44A59997A77FF9D8F751DC1",
+                        "displayName": "Casual",
+                        "resources": [
+                            {
+                                "name": "AceDate_Angry",
+                                "type": "graphic",
+                                "parent": "AEBB49B350E2B44A59997A77FF9D8F751DC1"
+                            },
+                            {
+                                "name": "AceDate_Embarassed",
+                                "type": "graphic",
+                                "parent": "AEBB49B350E2B44A59997A77FF9D8F751DC1"
+                            },
+                            {
+                                "name": "AceDate_Happy",
+                                "type": "graphic",
+                                "parent": "AEBB49B350E2B44A59997A77FF9D8F751DC1"
+                            },
+                            {
+                                "name": "AceDate_Normal",
+                                "type": "graphic",
+                                "parent": "AEBB49B350E2B44A59997A77FF9D8F751DC1"
+                            },
+                            {
+                                "name": "AceDate_Sad",
+                                "type": "graphic",
+                                "parent": "AEBB49B350E2B44A59997A77FF9D8F751DC1"
+                            },
+                            {
+                                "name": "AceDate_Scared",
+                                "type": "graphic",
+                                "parent": "AEBB49B350E2B44A59997A77FF9D8F751DC1"
+                            },
+                            {
+                                "name": "AceDate_Sick",
+                                "type": "graphic",
+                                "parent": "AEBB49B350E2B44A59997A77FF9D8F751DC1"
+                            }
+                        ],
+                        "parent": "57434A8960D2A143381AF4C7848051225D46",
+                        "isa": null,
+                        "_UID": 1654860
+                    },
+                    {
+                        "type": "folder",
+                        "name": "52399D33798F94437188E0E267944EA376EF",
+                        "displayName": "Uniform",
+                        "resources": [
+                            {
+                                "name": "AceUniform_Angry",
+                                "type": "graphic",
+                                "parent": "52399D33798F94437188E0E267944EA376EF"
+                            },
+                            {
+                                "name": "AceUniform_Embarassed",
+                                "type": "graphic",
+                                "parent": "52399D33798F94437188E0E267944EA376EF"
+                            },
+                            {
+                                "name": "AceUniform_Happy",
+                                "type": "graphic",
+                                "parent": "52399D33798F94437188E0E267944EA376EF"
+                            },
+                            {
+                                "name": "AceUniform_Normal",
+                                "type": "graphic",
+                                "parent": "52399D33798F94437188E0E267944EA376EF"
+                            },
+                            {
+                                "name": "AceUniform_Sad",
+                                "type": "graphic",
+                                "parent": "52399D33798F94437188E0E267944EA376EF"
+                            },
+                            {
+                                "name": "AceUniform_Scared",
+                                "type": "graphic",
+                                "parent": "52399D33798F94437188E0E267944EA376EF"
+                            },
+                            {
+                                "name": "AceUniform_Sick",
+                                "type": "graphic",
+                                "parent": "52399D33798F94437188E0E267944EA376EF"
+                            }
+                        ],
+                        "parent": "57434A8960D2A143381AF4C7848051225D46",
+                        "isa": null,
+                        "_UID": 1654861
+                    },
+                    {
+                        "type": "folder",
+                        "name": "12FC01B735AE4247BB081CD3BEFE02B93D18",
+                        "displayName": "Yukata",
+                        "resources": [
+                            {
+                                "name": "AceYukata_Angry",
+                                "type": "graphic",
+                                "parent": "12FC01B735AE4247BB081CD3BEFE02B93D18"
+                            },
+                            {
+                                "name": "AceYukata_Embarassed",
+                                "type": "graphic",
+                                "parent": "12FC01B735AE4247BB081CD3BEFE02B93D18"
+                            },
+                            {
+                                "name": "AceYukata_Happy",
+                                "type": "graphic",
+                                "parent": "12FC01B735AE4247BB081CD3BEFE02B93D18"
+                            },
+                            {
+                                "name": "AceYukata_Normal",
+                                "type": "graphic",
+                                "parent": "12FC01B735AE4247BB081CD3BEFE02B93D18"
+                            },
+                            {
+                                "name": "AceYukata_Sad",
+                                "type": "graphic",
+                                "parent": "12FC01B735AE4247BB081CD3BEFE02B93D18"
+                            },
+                            {
+                                "name": "AceYukata_Scared",
+                                "type": "graphic",
+                                "parent": "12FC01B735AE4247BB081CD3BEFE02B93D18"
+                            },
+                            {
+                                "name": "AceYukata_Sick",
+                                "type": "graphic",
+                                "parent": "12FC01B735AE4247BB081CD3BEFE02B93D18"
+                            }
+                        ],
+                        "parent": "57434A8960D2A143381AF4C7848051225D46",
+                        "isa": null,
+                        "_UID": 1654862
+                    }
+                ],
+                "isa": null,
+                "_UID": 1437878
+            },
+            {
+                "type": "folder",
+                "name": "04AA98548DE27642500AA2125912B454AFED",
+                "displayName": "Anna",
+                "resources": [
+                    {
+                        "type": "folder",
+                        "name": "C430087E44C0544D8E5A9C966586B9F7BC3E",
+                        "displayName": "Glasses",
+                        "resources": [
+                            {
+                                "name": "AnnaGlasses_Angry",
+                                "type": "graphic",
+                                "parent": "C430087E44C0544D8E5A9C966586B9F7BC3E"
+                            },
+                            {
+                                "name": "AnnaGlasses_Happy",
+                                "type": "graphic",
+                                "parent": "C430087E44C0544D8E5A9C966586B9F7BC3E"
+                            },
+                            {
+                                "name": "AnnaGlasses_Normal",
+                                "type": "graphic",
+                                "parent": "C430087E44C0544D8E5A9C966586B9F7BC3E"
+                            },
+                            {
+                                "name": "AnnaGlasses_Sad",
+                                "type": "graphic",
+                                "parent": "C430087E44C0544D8E5A9C966586B9F7BC3E"
+                            },
+                            {
+                                "name": "AnnaGlasses_Worried",
+                                "type": "graphic",
+                                "parent": "C430087E44C0544D8E5A9C966586B9F7BC3E"
+                            }
+                        ],
+                        "parent": "04AA98548DE27642500AA2125912B454AFED",
+                        "isa": null,
+                        "_UID": 1946890
+                    },
+                    {
+                        "type": "folder",
+                        "name": "2471DA603A9223437D180385D78C38482E9F",
+                        "displayName": "No Glasses",
+                        "resources": [
+                            {
+                                "name": "Anna_Angry",
+                                "type": "graphic",
+                                "parent": "2471DA603A9223437D180385D78C38482E9F"
+                            },
+                            {
+                                "name": "Anna_Happy",
+                                "type": "graphic",
+                                "parent": "2471DA603A9223437D180385D78C38482E9F"
+                            },
+                            {
+                                "name": "Anna_Normal",
+                                "type": "graphic",
+                                "parent": "2471DA603A9223437D180385D78C38482E9F"
+                            },
+                            {
+                                "name": "Anna_Sad",
+                                "type": "graphic",
+                                "parent": "2471DA603A9223437D180385D78C38482E9F"
+                            },
+                            {
+                                "name": "Anna_Worried",
+                                "type": "graphic",
+                                "parent": "2471DA603A9223437D180385D78C38482E9F"
+                            }
+                        ],
+                        "parent": "04AA98548DE27642500AA2125912B454AFED",
+                        "isa": null,
+                        "_UID": 1946891
+                    }
+                ],
+                "parent": null,
+                "isa": null,
+                "_UID": 1451272
+            },
+            {
+                "type": "folder",
+                "name": "294BAA4156FBB04FF48B6C055D461446511B",
+                "displayName": "Daniel",
+                "resources": [
+                    {
+                        "type": "folder",
+                        "name": "06400E0A7E763246722ADB7706824A415D19",
+                        "displayName": "Casual",
+                        "resources": [
+                            {
+                                "name": "DanielDate_Angry",
+                                "type": "graphic",
+                                "parent": "06400E0A7E763246722ADB7706824A415D19"
+                            },
+                            {
+                                "name": "DanielDate_Embarassed",
+                                "type": "graphic",
+                                "parent": "06400E0A7E763246722ADB7706824A415D19"
+                            },
+                            {
+                                "name": "DanielDate_EmbarassedBlush",
+                                "type": "graphic",
+                                "parent": "06400E0A7E763246722ADB7706824A415D19"
+                            },
+                            {
+                                "name": "DanielDate_Happy",
+                                "type": "graphic",
+                                "parent": "06400E0A7E763246722ADB7706824A415D19"
+                            },
+                            {
+                                "name": "DanielDate_Normal",
+                                "type": "graphic",
+                                "parent": "06400E0A7E763246722ADB7706824A415D19"
+                            },
+                            {
+                                "name": "DanielDate_Sad",
+                                "type": "graphic",
+                                "parent": "06400E0A7E763246722ADB7706824A415D19"
+                            },
+                            {
+                                "name": "DanielDate_Scared",
+                                "type": "graphic",
+                                "parent": "06400E0A7E763246722ADB7706824A415D19"
+                            },
+                            {
+                                "name": "DanielDate_Sick",
+                                "type": "graphic",
+                                "parent": "06400E0A7E763246722ADB7706824A415D19"
+                            }
+                        ],
+                        "parent": "294BAA4156FBB04FF48B6C055D461446511B",
+                        "isa": null,
+                        "_UID": 1965005
+                    },
+                    {
+                        "type": "folder",
+                        "name": "EEE4937215757947B35AE950A4B45960BC66",
+                        "displayName": "Uniform",
+                        "resources": [
+                            {
+                                "name": "DanielUniform_Angry",
+                                "type": "graphic",
+                                "parent": "EEE4937215757947B35AE950A4B45960BC66"
+                            },
+                            {
+                                "name": "DanielUniform_Embarassed",
+                                "type": "graphic",
+                                "parent": "EEE4937215757947B35AE950A4B45960BC66"
+                            },
+                            {
+                                "name": "DanielUniform_EmbarassedBlush",
+                                "type": "graphic",
+                                "parent": "EEE4937215757947B35AE950A4B45960BC66"
+                            },
+                            {
+                                "name": "DanielUniform_Happy",
+                                "type": "graphic",
+                                "parent": "EEE4937215757947B35AE950A4B45960BC66"
+                            },
+                            {
+                                "name": "DanielUniform_Normal",
+                                "type": "graphic",
+                                "parent": "EEE4937215757947B35AE950A4B45960BC66"
+                            },
+                            {
+                                "name": "DanielUniform_Sad",
+                                "type": "graphic",
+                                "parent": "EEE4937215757947B35AE950A4B45960BC66"
+                            },
+                            {
+                                "name": "DanielUniform_Scared",
+                                "type": "graphic",
+                                "parent": "EEE4937215757947B35AE950A4B45960BC66"
+                            },
+                            {
+                                "name": "DanielUniform_Sick",
+                                "type": "graphic",
+                                "parent": "EEE4937215757947B35AE950A4B45960BC66"
+                            }
+                        ],
+                        "parent": "294BAA4156FBB04FF48B6C055D461446511B",
+                        "isa": null,
+                        "_UID": 1965006
+                    },
+                    {
+                        "type": "folder",
+                        "name": "C5A6D08D77F5004CEA5AA68478D68DBF632A",
+                        "displayName": "Yukata",
+                        "resources": [
+                            {
+                                "name": "DanielYukata_Angry",
+                                "type": "graphic",
+                                "parent": "C5A6D08D77F5004CEA5AA68478D68DBF632A"
+                            },
+                            {
+                                "name": "DanielYukata_Embarassed",
+                                "type": "graphic",
+                                "parent": "C5A6D08D77F5004CEA5AA68478D68DBF632A"
+                            },
+                            {
+                                "name": "DanielYukata_EmbarassedBlush",
+                                "type": "graphic",
+                                "parent": "C5A6D08D77F5004CEA5AA68478D68DBF632A"
+                            },
+                            {
+                                "name": "DanielYukata_Happy",
+                                "type": "graphic",
+                                "parent": "C5A6D08D77F5004CEA5AA68478D68DBF632A"
+                            },
+                            {
+                                "name": "DanielYukata_Normal",
+                                "type": "graphic",
+                                "parent": "C5A6D08D77F5004CEA5AA68478D68DBF632A"
+                            },
+                            {
+                                "name": "DanielYukata_Sad",
+                                "type": "graphic",
+                                "parent": "C5A6D08D77F5004CEA5AA68478D68DBF632A"
+                            },
+                            {
+                                "name": "DanielYukata_Scared",
+                                "type": "graphic",
+                                "parent": "C5A6D08D77F5004CEA5AA68478D68DBF632A"
+                            },
+                            {
+                                "name": "DanielYukata_Sick",
+                                "type": "graphic",
+                                "parent": "C5A6D08D77F5004CEA5AA68478D68DBF632A"
+                            }
+                        ],
+                        "parent": "294BAA4156FBB04FF48B6C055D461446511B",
+                        "isa": null,
+                        "_UID": 1965007
+                    }
+                ],
+                "isa": null,
+                "_UID": 1456445
+            },
+            {
+                "type": "folder",
+                "name": "8DC426C40FBFA949DD8BB617509240BC2931",
+                "displayName": "Emma",
+                "resources": [
+                    {
+                        "type": "folder",
+                        "name": "ECE0075859A79646C56B5FE379F23619CD81",
+                        "displayName": "Date",
+                        "resources": [
+                            {
+                                "name": "EmmaDate_Angry",
+                                "type": "graphic",
+                                "parent": "ECE0075859A79646C56B5FE379F23619CD81"
+                            },
+                            {
+                                "name": "EmmaDate_AngryBlush",
+                                "type": "graphic",
+                                "parent": "ECE0075859A79646C56B5FE379F23619CD81"
+                            },
+                            {
+                                "name": "EmmaDate_Embarassed",
+                                "type": "graphic",
+                                "parent": "ECE0075859A79646C56B5FE379F23619CD81"
+                            },
+                            {
+                                "name": "EmmaDate_EmbarassedBlush",
+                                "type": "graphic",
+                                "parent": "ECE0075859A79646C56B5FE379F23619CD81"
+                            },
+                            {
+                                "name": "EmmaDate_Happy",
+                                "type": "graphic",
+                                "parent": "ECE0075859A79646C56B5FE379F23619CD81"
+                            },
+                            {
+                                "name": "EmmaDate_HappyBlush",
+                                "type": "graphic",
+                                "parent": "ECE0075859A79646C56B5FE379F23619CD81"
+                            },
+                            {
+                                "name": "EmmaDate_Normal",
+                                "type": "graphic",
+                                "parent": "ECE0075859A79646C56B5FE379F23619CD81"
+                            },
+                            {
+                                "name": "EmmaDate_NormalBlush",
+                                "type": "graphic",
+                                "parent": "ECE0075859A79646C56B5FE379F23619CD81"
+                            },
+                            {
+                                "name": "EmmaDate_Sad",
+                                "type": "graphic",
+                                "parent": "ECE0075859A79646C56B5FE379F23619CD81"
+                            },
+                            {
+                                "name": "EmmaDate_SadBlush",
+                                "type": "graphic",
+                                "parent": "ECE0075859A79646C56B5FE379F23619CD81"
+                            },
+                            {
+                                "name": "EmmaDate_Scared",
+                                "type": "graphic",
+                                "parent": "ECE0075859A79646C56B5FE379F23619CD81"
+                            },
+                            {
+                                "name": "EmmaDate_ScaredBlush",
+                                "type": "graphic",
+                                "parent": "ECE0075859A79646C56B5FE379F23619CD81"
+                            },
+                            {
+                                "name": "EmmaDate_Sick",
+                                "type": "graphic",
+                                "parent": "ECE0075859A79646C56B5FE379F23619CD81"
+                            }
+                        ],
+                        "parent": "8DC426C40FBFA949DD8BB617509240BC2931",
+                        "isa": null,
+                        "_UID": 1733457
+                    },
+                    {
+                        "type": "folder",
+                        "name": "A5B908463BBBB148068B8573CCF0204F2144",
+                        "displayName": "Uniform",
+                        "resources": [
+                            {
+                                "name": "EmmaUniform_Angry",
+                                "type": "graphic",
+                                "parent": "A5B908463BBBB148068B8573CCF0204F2144"
+                            },
+                            {
+                                "name": "EmmaUniform_AngryBlush",
+                                "type": "graphic",
+                                "parent": "A5B908463BBBB148068B8573CCF0204F2144"
+                            },
+                            {
+                                "name": "EmmaUniform_Embarassed",
+                                "type": "graphic",
+                                "parent": "A5B908463BBBB148068B8573CCF0204F2144"
+                            },
+                            {
+                                "name": "EmmaUniform_EmbarassedBlush",
+                                "type": "graphic",
+                                "parent": "A5B908463BBBB148068B8573CCF0204F2144"
+                            },
+                            {
+                                "name": "EmmaUniform_Happy",
+                                "type": "graphic",
+                                "parent": "A5B908463BBBB148068B8573CCF0204F2144"
+                            },
+                            {
+                                "name": "EmmaUniform_HappyBlush",
+                                "type": "graphic",
+                                "parent": "A5B908463BBBB148068B8573CCF0204F2144"
+                            },
+                            {
+                                "name": "EmmaUniform_Normal",
+                                "type": "graphic",
+                                "parent": "A5B908463BBBB148068B8573CCF0204F2144"
+                            },
+                            {
+                                "name": "EmmaUniform_NormalBlush",
+                                "type": "graphic",
+                                "parent": "A5B908463BBBB148068B8573CCF0204F2144"
+                            },
+                            {
+                                "name": "EmmaUniform_Sad",
+                                "type": "graphic",
+                                "parent": "A5B908463BBBB148068B8573CCF0204F2144"
+                            },
+                            {
+                                "name": "EmmaUniform_SadBlush",
+                                "type": "graphic",
+                                "parent": "A5B908463BBBB148068B8573CCF0204F2144"
+                            },
+                            {
+                                "name": "EmmaUniform_Scared",
+                                "type": "graphic",
+                                "parent": "A5B908463BBBB148068B8573CCF0204F2144"
+                            },
+                            {
+                                "name": "EmmaUniform_ScaredBlush",
+                                "type": "graphic",
+                                "parent": "A5B908463BBBB148068B8573CCF0204F2144"
+                            },
+                            {
+                                "name": "EmmaUniform_Sick",
+                                "type": "graphic",
+                                "parent": "A5B908463BBBB148068B8573CCF0204F2144"
+                            }
+                        ],
+                        "parent": "8DC426C40FBFA949DD8BB617509240BC2931",
+                        "isa": null,
+                        "_UID": 1733458
+                    },
+                    {
+                        "type": "folder",
+                        "name": "9D0C901622BDE64BAF6985D2C927944955CA",
+                        "displayName": "Yukata",
+                        "resources": [
+                            {
+                                "name": "EmmaYukata_Angry",
+                                "type": "graphic",
+                                "parent": "9D0C901622BDE64BAF6985D2C927944955CA"
+                            },
+                            {
+                                "name": "EmmaYukata_AngryBlush",
+                                "type": "graphic",
+                                "parent": "9D0C901622BDE64BAF6985D2C927944955CA"
+                            },
+                            {
+                                "name": "EmmaYukata_Embarassed",
+                                "type": "graphic",
+                                "parent": "9D0C901622BDE64BAF6985D2C927944955CA"
+                            },
+                            {
+                                "name": "EmmaYukata_EmbarassedBlush",
+                                "type": "graphic",
+                                "parent": "9D0C901622BDE64BAF6985D2C927944955CA"
+                            },
+                            {
+                                "name": "EmmaYukata_Happy",
+                                "type": "graphic",
+                                "parent": "9D0C901622BDE64BAF6985D2C927944955CA"
+                            },
+                            {
+                                "name": "EmmaYukata_HappyBlush",
+                                "type": "graphic",
+                                "parent": "9D0C901622BDE64BAF6985D2C927944955CA"
+                            },
+                            {
+                                "name": "EmmaYukata_Normal",
+                                "type": "graphic",
+                                "parent": "9D0C901622BDE64BAF6985D2C927944955CA"
+                            },
+                            {
+                                "name": "EmmaYukata_NormalBlush",
+                                "type": "graphic",
+                                "parent": "9D0C901622BDE64BAF6985D2C927944955CA"
+                            },
+                            {
+                                "name": "EmmaYukata_Sad",
+                                "type": "graphic",
+                                "parent": "9D0C901622BDE64BAF6985D2C927944955CA"
+                            },
+                            {
+                                "name": "EmmaYukata_SadBlush",
+                                "type": "graphic",
+                                "parent": "9D0C901622BDE64BAF6985D2C927944955CA"
+                            },
+                            {
+                                "name": "EmmaYukata_Scared",
+                                "type": "graphic",
+                                "parent": "9D0C901622BDE64BAF6985D2C927944955CA"
+                            },
+                            {
+                                "name": "EmmaYukata_ScaredBlush",
+                                "type": "graphic",
+                                "parent": "9D0C901622BDE64BAF6985D2C927944955CA"
+                            },
+                            {
+                                "name": "EmmaYukata_Sick",
+                                "type": "graphic",
+                                "parent": "9D0C901622BDE64BAF6985D2C927944955CA"
+                            }
+                        ],
+                        "parent": "8DC426C40FBFA949DD8BB617509240BC2931",
+                        "isa": null,
+                        "_UID": 1733459
+                    }
+                ],
+                "isa": null,
+                "_UID": 1457912
+            },
+            {
+                "type": "folder",
+                "name": "42C9CA9B44DBA8406C5B9024AFF0591CED38",
+                "displayName": "Jane",
+                "resources": [
+                    {
+                        "type": "folder",
+                        "name": "F28C782A316C204E61483650AFC0D2761A5B",
+                        "displayName": "Casual",
+                        "resources": [
+                            {
+                                "name": "JaneDate_Angry",
+                                "type": "graphic",
+                                "parent": "F28C782A316C204E61483650AFC0D2761A5B"
+                            },
+                            {
+                                "name": "JaneDate_AngryBlush",
+                                "type": "graphic",
+                                "parent": "F28C782A316C204E61483650AFC0D2761A5B"
+                            },
+                            {
+                                "name": "JaneDate_Embarassed",
+                                "type": "graphic",
+                                "parent": "F28C782A316C204E61483650AFC0D2761A5B"
+                            },
+                            {
+                                "name": "JaneDate_EmbarassedBlush",
+                                "type": "graphic",
+                                "parent": "F28C782A316C204E61483650AFC0D2761A5B"
+                            },
+                            {
+                                "name": "JaneDate_Happy",
+                                "type": "graphic",
+                                "parent": "F28C782A316C204E61483650AFC0D2761A5B"
+                            },
+                            {
+                                "name": "JaneDate_HappyBlush",
+                                "type": "graphic",
+                                "parent": "F28C782A316C204E61483650AFC0D2761A5B"
+                            },
+                            {
+                                "name": "JaneDate_Normal",
+                                "type": "graphic",
+                                "parent": "F28C782A316C204E61483650AFC0D2761A5B"
+                            },
+                            {
+                                "name": "JaneDate_NormalBlush",
+                                "type": "graphic",
+                                "parent": "F28C782A316C204E61483650AFC0D2761A5B"
+                            },
+                            {
+                                "name": "JaneDate_Sad",
+                                "type": "graphic",
+                                "parent": "F28C782A316C204E61483650AFC0D2761A5B"
+                            },
+                            {
+                                "name": "JaneDate_SadBlush",
+                                "type": "graphic",
+                                "parent": "F28C782A316C204E61483650AFC0D2761A5B"
+                            },
+                            {
+                                "name": "JaneDate_Scared",
+                                "type": "graphic",
+                                "parent": "F28C782A316C204E61483650AFC0D2761A5B"
+                            },
+                            {
+                                "name": "JaneDate_ScaredBlush",
+                                "type": "graphic",
+                                "parent": "F28C782A316C204E61483650AFC0D2761A5B"
+                            },
+                            {
+                                "name": "JaneDate_Sick",
+                                "type": "graphic",
+                                "parent": "F28C782A316C204E61483650AFC0D2761A5B"
+                            }
+                        ],
+                        "parent": "42C9CA9B44DBA8406C5B9024AFF0591CED38",
+                        "isa": null,
+                        "_UID": 1764248
+                    },
+                    {
+                        "type": "folder",
+                        "name": "B0C2C78F5A1B61426E980E28CC365A31D099",
+                        "displayName": "Uniform",
+                        "resources": [
+                            {
+                                "name": "JaneUniform_Angry",
+                                "type": "graphic",
+                                "parent": "B0C2C78F5A1B61426E980E28CC365A31D099"
+                            },
+                            {
+                                "name": "JaneUniform_AngryBlush",
+                                "type": "graphic",
+                                "parent": "B0C2C78F5A1B61426E980E28CC365A31D099"
+                            },
+                            {
+                                "name": "JaneUniform_Embarassed",
+                                "type": "graphic",
+                                "parent": "B0C2C78F5A1B61426E980E28CC365A31D099"
+                            },
+                            {
+                                "name": "JaneUniform_EmbarassedBlush",
+                                "type": "graphic",
+                                "parent": "B0C2C78F5A1B61426E980E28CC365A31D099"
+                            },
+                            {
+                                "name": "JaneUniform_Happy",
+                                "type": "graphic",
+                                "parent": "B0C2C78F5A1B61426E980E28CC365A31D099"
+                            },
+                            {
+                                "name": "JaneUniform_HappyBlush",
+                                "type": "graphic",
+                                "parent": "B0C2C78F5A1B61426E980E28CC365A31D099"
+                            },
+                            {
+                                "name": "JaneUniform_Normal",
+                                "type": "graphic",
+                                "parent": "B0C2C78F5A1B61426E980E28CC365A31D099"
+                            },
+                            {
+                                "name": "JaneUniform_NormalBlush",
+                                "type": "graphic",
+                                "parent": "B0C2C78F5A1B61426E980E28CC365A31D099"
+                            },
+                            {
+                                "name": "JaneUniform_Sad",
+                                "type": "graphic",
+                                "parent": "B0C2C78F5A1B61426E980E28CC365A31D099"
+                            },
+                            {
+                                "name": "JaneUniform_SadBlush",
+                                "type": "graphic",
+                                "parent": "B0C2C78F5A1B61426E980E28CC365A31D099"
+                            },
+                            {
+                                "name": "JaneUniform_Scared",
+                                "type": "graphic",
+                                "parent": "B0C2C78F5A1B61426E980E28CC365A31D099"
+                            },
+                            {
+                                "name": "JaneUniform_ScaredBlush",
+                                "type": "graphic",
+                                "parent": "B0C2C78F5A1B61426E980E28CC365A31D099"
+                            },
+                            {
+                                "name": "JaneUniform_Sick",
+                                "type": "graphic",
+                                "parent": "B0C2C78F5A1B61426E980E28CC365A31D099"
+                            }
+                        ],
+                        "parent": "42C9CA9B44DBA8406C5B9024AFF0591CED38",
+                        "isa": null,
+                        "_UID": 1764249
+                    },
+                    {
+                        "type": "folder",
+                        "name": "AF08CB157896E641A46890B19644CF71A1E6",
+                        "displayName": "Yukata",
+                        "resources": [
+                            {
+                                "name": "JaneYukata_Angry",
+                                "type": "graphic",
+                                "parent": "AF08CB157896E641A46890B19644CF71A1E6"
+                            },
+                            {
+                                "name": "JaneYukata_AngryBlush",
+                                "type": "graphic",
+                                "parent": "AF08CB157896E641A46890B19644CF71A1E6"
+                            },
+                            {
+                                "name": "JaneYukata_Embarassed",
+                                "type": "graphic",
+                                "parent": "AF08CB157896E641A46890B19644CF71A1E6"
+                            },
+                            {
+                                "name": "JaneYukata_EmbarassedBlush",
+                                "type": "graphic",
+                                "parent": "AF08CB157896E641A46890B19644CF71A1E6"
+                            },
+                            {
+                                "name": "JaneYukata_Happy",
+                                "type": "graphic",
+                                "parent": "AF08CB157896E641A46890B19644CF71A1E6"
+                            },
+                            {
+                                "name": "JaneYukata_HappyBlush",
+                                "type": "graphic",
+                                "parent": "AF08CB157896E641A46890B19644CF71A1E6"
+                            },
+                            {
+                                "name": "JaneYukata_Normal",
+                                "type": "graphic",
+                                "parent": "AF08CB157896E641A46890B19644CF71A1E6"
+                            },
+                            {
+                                "name": "JaneYukata_NormalBlush",
+                                "type": "graphic",
+                                "parent": "AF08CB157896E641A46890B19644CF71A1E6"
+                            },
+                            {
+                                "name": "JaneYukata_Sad",
+                                "type": "graphic",
+                                "parent": "AF08CB157896E641A46890B19644CF71A1E6"
+                            },
+                            {
+                                "name": "JaneYukata_ScadBlush",
+                                "type": "graphic",
+                                "parent": "AF08CB157896E641A46890B19644CF71A1E6"
+                            },
+                            {
+                                "name": "JaneYukata_Scared",
+                                "type": "graphic",
+                                "parent": "AF08CB157896E641A46890B19644CF71A1E6"
+                            },
+                            {
+                                "name": "JaneYukata_ScaredBlush",
+                                "type": "graphic",
+                                "parent": "AF08CB157896E641A46890B19644CF71A1E6"
+                            },
+                            {
+                                "name": "JaneYukata_Sick",
+                                "type": "graphic",
+                                "parent": "AF08CB157896E641A46890B19644CF71A1E6"
+                            }
+                        ],
+                        "parent": "42C9CA9B44DBA8406C5B9024AFF0591CED38",
+                        "isa": null,
+                        "_UID": 1764250
+                    }
+                ],
+                "isa": null,
+                "_UID": 1459118
+            },
+            {
+                "type": "folder",
+                "name": "CBFEFDF453E2244BAE78D03661456F1EEA78",
+                "displayName": "Jeremy",
+                "resources": [
+                    {
+                        "name": "Jeremy_Angry",
+                        "type": "graphic",
+                        "parent": "CBFEFDF453E2244BAE78D03661456F1EEA78"
+                    },
+                    {
+                        "name": "Jeremy_AngryBlush",
+                        "type": "graphic",
+                        "parent": "CBFEFDF453E2244BAE78D03661456F1EEA78"
+                    },
+                    {
+                        "name": "Jeremy_Happy",
+                        "type": "graphic",
+                        "parent": "CBFEFDF453E2244BAE78D03661456F1EEA78"
+                    },
+                    {
+                        "name": "Jeremy_HappyBlush",
+                        "type": "graphic",
+                        "parent": "CBFEFDF453E2244BAE78D03661456F1EEA78"
+                    },
+                    {
+                        "name": "Jeremy_Normal",
+                        "type": "graphic",
+                        "parent": "CBFEFDF453E2244BAE78D03661456F1EEA78"
+                    },
+                    {
+                        "name": "Jeremy_NormalBlush",
+                        "type": "graphic",
+                        "parent": "CBFEFDF453E2244BAE78D03661456F1EEA78"
+                    },
+                    {
+                        "name": "Jeremy_Sad",
+                        "type": "graphic",
+                        "parent": "CBFEFDF453E2244BAE78D03661456F1EEA78"
+                    },
+                    {
+                        "name": "Jeremy_SadBlush",
+                        "type": "graphic",
+                        "parent": "CBFEFDF453E2244BAE78D03661456F1EEA78"
+                    },
+                    {
+                        "name": "Jeremy_Worried",
+                        "type": "graphic",
+                        "parent": "CBFEFDF453E2244BAE78D03661456F1EEA78"
+                    },
+                    {
+                        "name": "Jeremy_WorriedBlush",
+                        "type": "graphic",
+                        "parent": "CBFEFDF453E2244BAE78D03661456F1EEA78"
+                    }
+                ],
+                "isa": null,
+                "_UID": 1460376
+            },
+            {
+                "type": "folder",
+                "name": "B8B7B85E3376084BD8586F53ED71496CC31D",
+                "displayName": "John",
+                "resources": [
+                    {
+                        "name": "John_Angry",
+                        "type": "graphic",
+                        "parent": "B8B7B85E3376084BD8586F53ED71496CC31D"
+                    },
+                    {
+                        "name": "John_Happy",
+                        "type": "graphic",
+                        "parent": "B8B7B85E3376084BD8586F53ED71496CC31D"
+                    },
+                    {
+                        "name": "John_Normal",
+                        "type": "graphic",
+                        "parent": "B8B7B85E3376084BD8586F53ED71496CC31D"
+                    },
+                    {
+                        "name": "John_Sad",
+                        "type": "graphic",
+                        "parent": "B8B7B85E3376084BD8586F53ED71496CC31D"
+                    },
+                    {
+                        "name": "John_Worried",
+                        "type": "graphic",
+                        "parent": "B8B7B85E3376084BD8586F53ED71496CC31D"
+                    }
+                ],
+                "isa": null,
+                "_UID": 1660538
+            },
+            {
+                "type": "folder",
+                "name": "8D1A32452C72764F0E5A92F2CD0DEBA2731C",
+                "displayName": "Lila",
+                "resources": [
+                    {
+                        "name": "Lila_Angry",
+                        "type": "graphic",
+                        "parent": "8D1A32452C72764F0E5A92F2CD0DEBA2731C"
+                    },
+                    {
+                        "name": "Lila_AngryBlush",
+                        "type": "graphic",
+                        "parent": "8D1A32452C72764F0E5A92F2CD0DEBA2731C"
+                    },
+                    {
+                        "name": "Lila_Happy",
+                        "type": "graphic",
+                        "parent": "8D1A32452C72764F0E5A92F2CD0DEBA2731C"
+                    },
+                    {
+                        "name": "Lila_HappyBlush",
+                        "type": "graphic",
+                        "parent": "8D1A32452C72764F0E5A92F2CD0DEBA2731C"
+                    },
+                    {
+                        "name": "Lila_Normal",
+                        "type": "graphic",
+                        "parent": "8D1A32452C72764F0E5A92F2CD0DEBA2731C"
+                    },
+                    {
+                        "name": "Lila_NormalBlush",
+                        "type": "graphic",
+                        "parent": "8D1A32452C72764F0E5A92F2CD0DEBA2731C"
+                    },
+                    {
+                        "name": "Lila_Sad",
+                        "type": "graphic",
+                        "parent": "8D1A32452C72764F0E5A92F2CD0DEBA2731C"
+                    },
+                    {
+                        "name": "Lila_SadBlush",
+                        "type": "graphic",
+                        "parent": "8D1A32452C72764F0E5A92F2CD0DEBA2731C"
+                    },
+                    {
+                        "name": "Lila_Worried",
+                        "type": "graphic",
+                        "parent": "8D1A32452C72764F0E5A92F2CD0DEBA2731C"
+                    },
+                    {
+                        "name": "Lila_WorriedBlush",
+                        "type": "graphic",
+                        "parent": "8D1A32452C72764F0E5A92F2CD0DEBA2731C"
+                    }
+                ],
+                "isa": null,
+                "_UID": 1675387
+            },
+            {
+                "type": "folder",
+                "name": "89F66D73188166420F7896419F5D72790A90",
+                "displayName": "Lucy",
+                "resources": [
+                    {
+                        "type": "folder",
+                        "name": "DE4927F47878A449837A24E1A3A693CD2860",
+                        "displayName": "Casual",
+                        "resources": [
+                            {
+                                "name": "LucyDate_Angry",
+                                "type": "graphic",
+                                "parent": "DE4927F47878A449837A24E1A3A693CD2860"
+                            },
+                            {
+                                "name": "LucyDate_AngryBlush",
+                                "type": "graphic",
+                                "parent": "DE4927F47878A449837A24E1A3A693CD2860"
+                            },
+                            {
+                                "name": "LucyDate_Embarassed",
+                                "type": "graphic",
+                                "parent": "DE4927F47878A449837A24E1A3A693CD2860"
+                            },
+                            {
+                                "name": "LucyDate_EmbarassedBlush",
+                                "type": "graphic",
+                                "parent": "DE4927F47878A449837A24E1A3A693CD2860"
+                            },
+                            {
+                                "name": "LucyDate_Happy",
+                                "type": "graphic",
+                                "parent": "DE4927F47878A449837A24E1A3A693CD2860"
+                            },
+                            {
+                                "name": "LucyDate_HappyBlush",
+                                "type": "graphic",
+                                "parent": "DE4927F47878A449837A24E1A3A693CD2860"
+                            },
+                            {
+                                "name": "LucyDate_Normal",
+                                "type": "graphic",
+                                "parent": "DE4927F47878A449837A24E1A3A693CD2860"
+                            },
+                            {
+                                "name": "LucyDate_NormalBlush",
+                                "type": "graphic",
+                                "parent": "DE4927F47878A449837A24E1A3A693CD2860"
+                            },
+                            {
+                                "name": "LucyDate_Sad",
+                                "type": "graphic",
+                                "parent": "DE4927F47878A449837A24E1A3A693CD2860"
+                            },
+                            {
+                                "name": "LucyDate_SadBlush",
+                                "type": "graphic",
+                                "parent": "DE4927F47878A449837A24E1A3A693CD2860"
+                            },
+                            {
+                                "name": "LucyDate_Scared",
+                                "type": "graphic",
+                                "parent": "DE4927F47878A449837A24E1A3A693CD2860"
+                            },
+                            {
+                                "name": "LucyDate_ScaredBlush",
+                                "type": "graphic",
+                                "parent": "DE4927F47878A449837A24E1A3A693CD2860"
+                            },
+                            {
+                                "name": "LucyDate_Sick",
+                                "type": "graphic",
+                                "parent": "DE4927F47878A449837A24E1A3A693CD2860"
+                            }
+                        ],
+                        "parent": "89F66D73188166420F7896419F5D72790A90",
+                        "isa": null,
+                        "_UID": 1791667
+                    },
+                    {
+                        "type": "folder",
+                        "name": "2AF5421F75E9C342592B5E1175F58E4942CF",
+                        "displayName": "Uniform",
+                        "resources": [
+                            {
+                                "name": "LucyUniform_Angry",
+                                "type": "graphic",
+                                "parent": "2AF5421F75E9C342592B5E1175F58E4942CF"
+                            },
+                            {
+                                "name": "LucyUniform_AngryBlush",
+                                "type": "graphic",
+                                "parent": "2AF5421F75E9C342592B5E1175F58E4942CF"
+                            },
+                            {
+                                "name": "LucyUniform_Embarassed",
+                                "type": "graphic",
+                                "parent": "2AF5421F75E9C342592B5E1175F58E4942CF"
+                            },
+                            {
+                                "name": "LucyUniform_EmbarassedBlush",
+                                "type": "graphic",
+                                "parent": "2AF5421F75E9C342592B5E1175F58E4942CF"
+                            },
+                            {
+                                "name": "LucyUniform_Happy",
+                                "type": "graphic",
+                                "parent": "2AF5421F75E9C342592B5E1175F58E4942CF"
+                            },
+                            {
+                                "name": "LucyUniform_HappyBlush",
+                                "type": "graphic",
+                                "parent": "2AF5421F75E9C342592B5E1175F58E4942CF"
+                            },
+                            {
+                                "name": "LucyUniform_Normal",
+                                "type": "graphic",
+                                "parent": "2AF5421F75E9C342592B5E1175F58E4942CF"
+                            },
+                            {
+                                "name": "LucyUniform_NormalBlush",
+                                "type": "graphic",
+                                "parent": "2AF5421F75E9C342592B5E1175F58E4942CF"
+                            },
+                            {
+                                "name": "LucyUniform_Sad",
+                                "type": "graphic",
+                                "parent": "2AF5421F75E9C342592B5E1175F58E4942CF"
+                            },
+                            {
+                                "name": "LucyUniform_SadBlush",
+                                "type": "graphic",
+                                "parent": "2AF5421F75E9C342592B5E1175F58E4942CF"
+                            },
+                            {
+                                "name": "LucyUniform_Scared",
+                                "type": "graphic",
+                                "parent": "2AF5421F75E9C342592B5E1175F58E4942CF"
+                            },
+                            {
+                                "name": "LucyUniform_ScaredBlush",
+                                "type": "graphic",
+                                "parent": "2AF5421F75E9C342592B5E1175F58E4942CF"
+                            },
+                            {
+                                "name": "LucyUniform_Sick",
+                                "type": "graphic",
+                                "parent": "2AF5421F75E9C342592B5E1175F58E4942CF"
+                            }
+                        ],
+                        "parent": "89F66D73188166420F7896419F5D72790A90",
+                        "isa": null,
+                        "_UID": 1791665
+                    },
+                    {
+                        "type": "folder",
+                        "name": "4A561CA7049EE24E32496CD120F6BC902DA7",
+                        "displayName": "Yukata",
+                        "resources": [
+                            {
+                                "name": "LucyYukata_Angry",
+                                "type": "graphic",
+                                "parent": "4A561CA7049EE24E32496CD120F6BC902DA7"
+                            },
+                            {
+                                "name": "LucyYukata_AngryBlush",
+                                "type": "graphic",
+                                "parent": "4A561CA7049EE24E32496CD120F6BC902DA7"
+                            },
+                            {
+                                "name": "LucyYukata_Embarassed",
+                                "type": "graphic",
+                                "parent": "4A561CA7049EE24E32496CD120F6BC902DA7"
+                            },
+                            {
+                                "name": "LucyYukata_EmbarassedBlush",
+                                "type": "graphic",
+                                "parent": "4A561CA7049EE24E32496CD120F6BC902DA7"
+                            },
+                            {
+                                "name": "LucyYukata_Happy",
+                                "type": "graphic",
+                                "parent": "4A561CA7049EE24E32496CD120F6BC902DA7"
+                            },
+                            {
+                                "name": "LucyYukata_HappyBlush",
+                                "type": "graphic",
+                                "parent": "4A561CA7049EE24E32496CD120F6BC902DA7"
+                            },
+                            {
+                                "name": "LucyYukata_Normal",
+                                "type": "graphic",
+                                "parent": "4A561CA7049EE24E32496CD120F6BC902DA7"
+                            },
+                            {
+                                "name": "LucyYukata_NormalBlush",
+                                "type": "graphic",
+                                "parent": "4A561CA7049EE24E32496CD120F6BC902DA7"
+                            },
+                            {
+                                "name": "LucyYukata_Sad",
+                                "type": "graphic",
+                                "parent": "4A561CA7049EE24E32496CD120F6BC902DA7"
+                            },
+                            {
+                                "name": "LucyYukata_ScadBlush",
+                                "type": "graphic",
+                                "parent": "4A561CA7049EE24E32496CD120F6BC902DA7"
+                            },
+                            {
+                                "name": "LucyYukata_Scared",
+                                "type": "graphic",
+                                "parent": "4A561CA7049EE24E32496CD120F6BC902DA7"
+                            },
+                            {
+                                "name": "LucyYukata_ScaredBlush",
+                                "type": "graphic",
+                                "parent": "4A561CA7049EE24E32496CD120F6BC902DA7"
+                            },
+                            {
+                                "name": "LucyYukata_Sick",
+                                "type": "graphic",
+                                "parent": "4A561CA7049EE24E32496CD120F6BC902DA7"
+                            }
+                        ],
+                        "parent": "89F66D73188166420F7896419F5D72790A90",
+                        "isa": null,
+                        "_UID": 1791666
+                    }
+                ],
+                "isa": null,
+                "_UID": 1517395
+            },
+            {
+                "type": "folder",
+                "name": "F338CF18K3894A457BS986BED9A774C01A97",
+                "displayName": "Sam",
+                "resources": [
+                    {
+                        "type": "folder",
+                        "name": "ADE0A64719A894403A29E666779F7CCC2758",
+                        "displayName": "Casual",
+                        "resources": [
+                            {
+                                "name": "SamDate_Angry",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2701781,
+                                "parent": "ADE0A64719A894403A29E666779F7CCC2758"
+                            },
+                            {
+                                "name": "SamDate_EmbarassedBlush",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2701783,
+                                "parent": "ADE0A64719A894403A29E666779F7CCC2758"
+                            },
+                            {
+                                "name": "SamDate_Happy",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2701785,
+                                "parent": "ADE0A64719A894403A29E666779F7CCC2758"
+                            },
+                            {
+                                "name": "SamDate_Normal",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2701787,
+                                "parent": "ADE0A64719A894403A29E666779F7CCC2758"
+                            },
+                            {
+                                "name": "SamDate_Sad",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2701789,
+                                "parent": "ADE0A64719A894403A29E666779F7CCC2758"
+                            },
+                            {
+                                "name": "SamDate_Scared",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2701791,
+                                "parent": "ADE0A64719A894403A29E666779F7CCC2758"
+                            },
+                            {
+                                "name": "SamDate_Sick",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2701793,
+                                "parent": "ADE0A64719A894403A29E666779F7CCC2758"
+                            },
+                            {
+                                "name": "SamGlassesDate_Angry",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2701795,
+                                "parent": "ADE0A64719A894403A29E666779F7CCC2758"
+                            },
+                            {
+                                "name": "SamGlassesDate_Embarassed",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2701797,
+                                "parent": "ADE0A64719A894403A29E666779F7CCC2758"
+                            },
+                            {
+                                "name": "SamGlassesDate_Happy",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2701799,
+                                "parent": "ADE0A64719A894403A29E666779F7CCC2758"
+                            },
+                            {
+                                "name": "SamGlassesDate_Normal",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2701801,
+                                "parent": "ADE0A64719A894403A29E666779F7CCC2758"
+                            },
+                            {
+                                "name": "SamGlassesDate_Sad",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2701803,
+                                "parent": "ADE0A64719A894403A29E666779F7CCC2758"
+                            },
+                            {
+                                "name": "SamGlassesDate_Scared",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2701805,
+                                "parent": "ADE0A64719A894403A29E666779F7CCC2758"
+                            },
+                            {
+                                "name": "SamGlassesDate_Sick",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2701807,
+                                "parent": "ADE0A64719A894403A29E666779F7CCC2758"
+                            }
+                        ],
+                        "parent": "F338CF18K3894A457BS986BED9A774C01A97",
+                        "isa": null,
+                        "_UID": 1859522
+                    },
+                    {
+                        "type": "folder",
+                        "name": "BB8CC82A73D58340114AC326284D61A6C3E4",
+                        "displayName": "Uniform",
+                        "resources": [
+                            {
+                                "name": "SamGlassesUniform_Angry",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2716512,
+                                "parent": "BB8CC82A73D58340114AC326284D61A6C3E4"
+                            },
+                            {
+                                "name": "SamGlassesUniform_Embarassed",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2716514,
+                                "parent": "BB8CC82A73D58340114AC326284D61A6C3E4"
+                            },
+                            {
+                                "name": "SamGlassesUniform_Happy",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2716516,
+                                "parent": "BB8CC82A73D58340114AC326284D61A6C3E4"
+                            },
+                            {
+                                "name": "SamGlassesUniform_Normal",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2716518,
+                                "parent": "BB8CC82A73D58340114AC326284D61A6C3E4"
+                            },
+                            {
+                                "name": "SamGlassesUniform_Sad",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2716520,
+                                "parent": "BB8CC82A73D58340114AC326284D61A6C3E4"
+                            },
+                            {
+                                "name": "SamGlassesUniform_Scared",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2716522,
+                                "parent": "BB8CC82A73D58340114AC326284D61A6C3E4"
+                            },
+                            {
+                                "name": "SamGlassesUniform_Sick",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2716524,
+                                "parent": "BB8CC82A73D58340114AC326284D61A6C3E4"
+                            },
+                            {
+                                "name": "SamUniform_Angry",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2716526,
+                                "parent": "BB8CC82A73D58340114AC326284D61A6C3E4"
+                            },
+                            {
+                                "name": "SamUniform_Embarassed",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2716528,
+                                "parent": "BB8CC82A73D58340114AC326284D61A6C3E4"
+                            },
+                            {
+                                "name": "SamUniform_Happy",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2716530,
+                                "parent": "BB8CC82A73D58340114AC326284D61A6C3E4"
+                            },
+                            {
+                                "name": "SamUniform_Normal",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2716532,
+                                "parent": "BB8CC82A73D58340114AC326284D61A6C3E4"
+                            },
+                            {
+                                "name": "SamUniform_Sad",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2716534,
+                                "parent": "BB8CC82A73D58340114AC326284D61A6C3E4"
+                            },
+                            {
+                                "name": "SamUniform_Scared",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2716536,
+                                "parent": "BB8CC82A73D58340114AC326284D61A6C3E4"
+                            },
+                            {
+                                "name": "SamUniform_Sick",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2716538,
+                                "parent": "BB8CC82A73D58340114AC326284D61A6C3E4"
+                            }
+                        ],
+                        "parent": "F338CF18K3894A457BS986BED9A774C01A97",
+                        "isa": null,
+                        "_UID": 1859524
+                    },
+                    {
+                        "type": "folder",
+                        "name": "2AFACAF9356A034F496B6E55576644C548D1",
+                        "displayName": "Yukata",
+                        "resources": [
+                            {
+                                "name": "SamGlassesYukata_Angry",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2720529,
+                                "parent": "2AFACAF9356A034F496B6E55576644C548D1"
+                            },
+                            {
+                                "name": "SamGlassesYukata_Embarassed",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2720531,
+                                "parent": "2AFACAF9356A034F496B6E55576644C548D1"
+                            },
+                            {
+                                "name": "SamGlassesYukata_Happy",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2720533,
+                                "parent": "2AFACAF9356A034F496B6E55576644C548D1"
+                            },
+                            {
+                                "name": "SamGlassesYukata_Normal",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2720535,
+                                "parent": "2AFACAF9356A034F496B6E55576644C548D1"
+                            },
+                            {
+                                "name": "SamGlassesYukata_Sad",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2720537,
+                                "parent": "2AFACAF9356A034F496B6E55576644C548D1"
+                            },
+                            {
+                                "name": "SamGlassesYukata_Scared",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2720539,
+                                "parent": "2AFACAF9356A034F496B6E55576644C548D1"
+                            },
+                            {
+                                "name": "SamGlassesYukata_Sick",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2720541,
+                                "parent": "2AFACAF9356A034F496B6E55576644C548D1"
+                            },
+                            {
+                                "name": "SamYukata_Angry",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2720543,
+                                "parent": "2AFACAF9356A034F496B6E55576644C548D1"
+                            },
+                            {
+                                "name": "SamYukata_Embarassed",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2720545,
+                                "parent": "2AFACAF9356A034F496B6E55576644C548D1"
+                            },
+                            {
+                                "name": "SamYukata_Happy",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2720547,
+                                "parent": "2AFACAF9356A034F496B6E55576644C548D1"
+                            },
+                            {
+                                "name": "SamYukata_Normal",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2720549,
+                                "parent": "2AFACAF9356A034F496B6E55576644C548D1"
+                            },
+                            {
+                                "name": "SamYukata_Sad",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2720551,
+                                "parent": "2AFACAF9356A034F496B6E55576644C548D1"
+                            },
+                            {
+                                "name": "SamYukata_Scared",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2720553,
+                                "parent": "2AFACAF9356A034F496B6E55576644C548D1"
+                            },
+                            {
+                                "name": "SamYukata_Sick",
+                                "type": "graphic",
+                                "isa": null,
+                                "_UID": 2720555,
+                                "parent": "2AFACAF9356A034F496B6E55576644C548D1"
+                            }
+                        ],
+                        "parent": "F338CF18K3894A457BS986BED9A774C01A97",
+                        "isa": null,
+                        "_UID": 1859523
+                    }
+                ],
+                "isa": null,
+                "_UID": 1336703
+            },
+            {
+                "type": "folder",
+                "name": "7F82CDA1462F27489F087714693BA8A58671",
+                "displayName": "Victor",
+                "resources": [
+                    {
+                        "type": "folder",
+                        "name": "BE5EE61F79932143B14944990373B72F2D16",
+                        "displayName": "Casual",
+                        "resources": [
+                            {
+                                "name": "VictorDate_Angry",
+                                "type": "graphic",
+                                "parent": "BE5EE61F79932143B14944990373B72F2D16"
+                            },
+                            {
+                                "name": "VictorDate_Embarassed",
+                                "type": "graphic",
+                                "parent": "BE5EE61F79932143B14944990373B72F2D16"
+                            },
+                            {
+                                "name": "VictorDate_EmbarassedBlush",
+                                "type": "graphic",
+                                "parent": "BE5EE61F79932143B14944990373B72F2D16"
+                            },
+                            {
+                                "name": "VictorDate_Happy",
+                                "type": "graphic",
+                                "parent": "BE5EE61F79932143B14944990373B72F2D16"
+                            },
+                            {
+                                "name": "VictorDate_Normal",
+                                "type": "graphic",
+                                "parent": "BE5EE61F79932143B14944990373B72F2D16"
+                            },
+                            {
+                                "name": "VictorDate_Sad",
+                                "type": "graphic",
+                                "parent": "BE5EE61F79932143B14944990373B72F2D16"
+                            },
+                            {
+                                "name": "VictorDate_Scared",
+                                "type": "graphic",
+                                "parent": "BE5EE61F79932143B14944990373B72F2D16"
+                            },
+                            {
+                                "name": "VictorDate_Sick",
+                                "type": "graphic",
+                                "parent": "BE5EE61F79932143B14944990373B72F2D16"
+                            }
+                        ],
+                        "parent": "7F82CDA1462F27489F087714693BA8A58671",
+                        "isa": null,
+                        "_UID": 1826459
+                    },
+                    {
+                        "type": "folder",
+                        "name": "E6A5B64118BB87422B6A847649EDB0A00454",
+                        "displayName": "Uniform",
+                        "resources": [
+                            {
+                                "name": "VictorUniform_Angry",
+                                "type": "graphic",
+                                "parent": "E6A5B64118BB87422B6A847649EDB0A00454"
+                            },
+                            {
+                                "name": "VictorUniform_Embarassed",
+                                "type": "graphic",
+                                "parent": "E6A5B64118BB87422B6A847649EDB0A00454"
+                            },
+                            {
+                                "name": "VictorUniform_EmbarassedBlush",
+                                "type": "graphic",
+                                "parent": "E6A5B64118BB87422B6A847649EDB0A00454"
+                            },
+                            {
+                                "name": "VictorUniform_Happy",
+                                "type": "graphic",
+                                "parent": "E6A5B64118BB87422B6A847649EDB0A00454"
+                            },
+                            {
+                                "name": "VictorUniform_Normal",
+                                "type": "graphic",
+                                "parent": "E6A5B64118BB87422B6A847649EDB0A00454"
+                            },
+                            {
+                                "name": "VictorUniform_Sad",
+                                "type": "graphic",
+                                "parent": "E6A5B64118BB87422B6A847649EDB0A00454"
+                            },
+                            {
+                                "name": "VictorUniform_Scared",
+                                "type": "graphic",
+                                "parent": "E6A5B64118BB87422B6A847649EDB0A00454"
+                            },
+                            {
+                                "name": "VictorUniform_Sick",
+                                "type": "graphic",
+                                "parent": "E6A5B64118BB87422B6A847649EDB0A00454"
+                            }
+                        ],
+                        "parent": "7F82CDA1462F27489F087714693BA8A58671",
+                        "isa": null,
+                        "_UID": 1826460
+                    },
+                    {
+                        "type": "folder",
+                        "name": "CFC066FD7434B14E3F79BCC836DC092EFC79",
+                        "displayName": "Yukata",
+                        "resources": [
+                            {
+                                "name": "VictorYukata_Angry",
+                                "type": "graphic",
+                                "parent": "CFC066FD7434B14E3F79BCC836DC092EFC79"
+                            },
+                            {
+                                "name": "VictorYukata_Embarassed",
+                                "type": "graphic",
+                                "parent": "CFC066FD7434B14E3F79BCC836DC092EFC79"
+                            },
+                            {
+                                "name": "VictorYukata_EmbarassedBlush",
+                                "type": "graphic",
+                                "parent": "CFC066FD7434B14E3F79BCC836DC092EFC79"
+                            },
+                            {
+                                "name": "VictorYukata_Happy",
+                                "type": "graphic",
+                                "parent": "CFC066FD7434B14E3F79BCC836DC092EFC79"
+                            },
+                            {
+                                "name": "VictorYukata_Normal",
+                                "type": "graphic",
+                                "parent": "CFC066FD7434B14E3F79BCC836DC092EFC79"
+                            },
+                            {
+                                "name": "VictorYukata_Sad",
+                                "type": "graphic",
+                                "parent": "CFC066FD7434B14E3F79BCC836DC092EFC79"
+                            },
+                            {
+                                "name": "VictorYukata_Scared",
+                                "type": "graphic",
+                                "parent": "CFC066FD7434B14E3F79BCC836DC092EFC79"
+                            },
+                            {
+                                "name": "VictorYukata_Sick",
+                                "type": "graphic",
+                                "parent": "CFC066FD7434B14E3F79BCC836DC092EFC79"
+                            }
+                        ],
+                        "parent": "7F82CDA1462F27489F087714693BA8A58671",
+                        "isa": null,
+                        "_UID": 1826461
+                    }
+                ],
+                "isa": null,
+                "_UID": 1519808
+            },
+            {
+                "type": "folder",
+                "name": "D6EA6395932A7547018AAA550303AC344566",
+                "displayName": "Willow",
+                "resources": [
+                    {
+                        "type": "folder",
+                        "name": "78829B066850E641D17889B42704D4FA49F1",
+                        "displayName": "Casual",
+                        "resources": [
+                            {
+                                "name": "WillowDate_Angry",
+                                "type": "graphic",
+                                "parent": "78829B066850E641D17889B42704D4FA49F1"
+                            },
+                            {
+                                "name": "WillowDate_AngryBlush",
+                                "type": "graphic",
+                                "parent": "78829B066850E641D17889B42704D4FA49F1"
+                            },
+                            {
+                                "name": "WillowDate_Embarassed",
+                                "type": "graphic",
+                                "parent": "78829B066850E641D17889B42704D4FA49F1"
+                            },
+                            {
+                                "name": "WillowDate_EmbarassedBlush",
+                                "type": "graphic",
+                                "parent": "78829B066850E641D17889B42704D4FA49F1"
+                            },
+                            {
+                                "name": "WillowDate_Happy",
+                                "type": "graphic",
+                                "parent": "78829B066850E641D17889B42704D4FA49F1"
+                            },
+                            {
+                                "name": "WillowDate_HappyBlush",
+                                "type": "graphic",
+                                "parent": "78829B066850E641D17889B42704D4FA49F1"
+                            },
+                            {
+                                "name": "WillowDate_Normal",
+                                "type": "graphic",
+                                "parent": "78829B066850E641D17889B42704D4FA49F1"
+                            },
+                            {
+                                "name": "WillowDate_NormalBlush",
+                                "type": "graphic",
+                                "parent": "78829B066850E641D17889B42704D4FA49F1"
+                            },
+                            {
+                                "name": "WillowDate_Sad",
+                                "type": "graphic",
+                                "parent": "78829B066850E641D17889B42704D4FA49F1"
+                            },
+                            {
+                                "name": "WillowDate_SadBlush",
+                                "type": "graphic",
+                                "parent": "78829B066850E641D17889B42704D4FA49F1"
+                            },
+                            {
+                                "name": "WillowDate_Scared",
+                                "type": "graphic",
+                                "parent": "78829B066850E641D17889B42704D4FA49F1"
+                            },
+                            {
+                                "name": "WillowDate_ScaredBlush",
+                                "type": "graphic",
+                                "parent": "78829B066850E641D17889B42704D4FA49F1"
+                            },
+                            {
+                                "name": "WillowDate_Sick",
+                                "type": "graphic",
+                                "parent": "78829B066850E641D17889B42704D4FA49F1"
+                            }
+                        ],
+                        "parent": "D6EA6395932A7547018AAA550303AC344566",
+                        "isa": null,
+                        "_UID": 1896000
+                    },
+                    {
+                        "type": "folder",
+                        "name": "158CE15052D2B54FD29B6305B9781C5A2222",
+                        "displayName": "Uniform",
+                        "resources": [
+                            {
+                                "name": "WillowUniform_Angry",
+                                "type": "graphic",
+                                "parent": "158CE15052D2B54FD29B6305B9781C5A2222"
+                            },
+                            {
+                                "name": "WillowUniform_AngryBlush",
+                                "type": "graphic",
+                                "parent": "158CE15052D2B54FD29B6305B9781C5A2222"
+                            },
+                            {
+                                "name": "WillowUniform_Embarassed",
+                                "type": "graphic",
+                                "parent": "158CE15052D2B54FD29B6305B9781C5A2222"
+                            },
+                            {
+                                "name": "WillowUniform_EmbarassedBlush",
+                                "type": "graphic",
+                                "parent": "158CE15052D2B54FD29B6305B9781C5A2222"
+                            },
+                            {
+                                "name": "WillowUniform_Happy",
+                                "type": "graphic",
+                                "parent": "158CE15052D2B54FD29B6305B9781C5A2222"
+                            },
+                            {
+                                "name": "WillowUniform_HappyBlush",
+                                "type": "graphic",
+                                "parent": "158CE15052D2B54FD29B6305B9781C5A2222"
+                            },
+                            {
+                                "name": "WillowUniform_Normal",
+                                "type": "graphic",
+                                "parent": "158CE15052D2B54FD29B6305B9781C5A2222"
+                            },
+                            {
+                                "name": "WillowUniform_NormalBlush",
+                                "type": "graphic",
+                                "parent": "158CE15052D2B54FD29B6305B9781C5A2222"
+                            },
+                            {
+                                "name": "WillowUniform_Sad",
+                                "type": "graphic",
+                                "parent": "158CE15052D2B54FD29B6305B9781C5A2222"
+                            },
+                            {
+                                "name": "WillowUniform_SadBlush",
+                                "type": "graphic",
+                                "parent": "158CE15052D2B54FD29B6305B9781C5A2222"
+                            },
+                            {
+                                "name": "WillowUniform_Scared",
+                                "type": "graphic",
+                                "parent": "158CE15052D2B54FD29B6305B9781C5A2222"
+                            },
+                            {
+                                "name": "WillowUniform_ScaredBlush",
+                                "type": "graphic",
+                                "parent": "158CE15052D2B54FD29B6305B9781C5A2222"
+                            },
+                            {
+                                "name": "WillowUniform_Sick",
+                                "type": "graphic",
+                                "parent": "158CE15052D2B54FD29B6305B9781C5A2222"
+                            }
+                        ],
+                        "parent": "D6EA6395932A7547018AAA550303AC344566",
+                        "isa": null,
+                        "_UID": 1896001
+                    },
+                    {
+                        "type": "folder",
+                        "name": "D8EB010C62A92544837BCDF7A58B9B8D9DE2",
+                        "displayName": "Yukata",
+                        "resources": [
+                            {
+                                "name": "WillowYukata_Angry",
+                                "type": "graphic",
+                                "parent": "D8EB010C62A92544837BCDF7A58B9B8D9DE2"
+                            },
+                            {
+                                "name": "WillowYukata_AngryBlush",
+                                "type": "graphic",
+                                "parent": "D8EB010C62A92544837BCDF7A58B9B8D9DE2"
+                            },
+                            {
+                                "name": "WillowYukata_Embarassed",
+                                "type": "graphic",
+                                "parent": "D8EB010C62A92544837BCDF7A58B9B8D9DE2"
+                            },
+                            {
+                                "name": "WillowYukata_EmbarassedBlush",
+                                "type": "graphic",
+                                "parent": "D8EB010C62A92544837BCDF7A58B9B8D9DE2"
+                            },
+                            {
+                                "name": "WillowYukata_Happy",
+                                "type": "graphic",
+                                "parent": "D8EB010C62A92544837BCDF7A58B9B8D9DE2"
+                            },
+                            {
+                                "name": "WillowYukata_HappyBlush",
+                                "type": "graphic",
+                                "parent": "D8EB010C62A92544837BCDF7A58B9B8D9DE2"
+                            },
+                            {
+                                "name": "WillowYukata_Normal",
+                                "type": "graphic",
+                                "parent": "D8EB010C62A92544837BCDF7A58B9B8D9DE2"
+                            },
+                            {
+                                "name": "WillowYukata_NormalBlush",
+                                "type": "graphic",
+                                "parent": "D8EB010C62A92544837BCDF7A58B9B8D9DE2"
+                            },
+                            {
+                                "name": "WillowYukata_Sad",
+                                "type": "graphic",
+                                "parent": "D8EB010C62A92544837BCDF7A58B9B8D9DE2"
+                            },
+                            {
+                                "name": "WillowYukata_ScadBlush",
+                                "type": "graphic",
+                                "parent": "D8EB010C62A92544837BCDF7A58B9B8D9DE2"
+                            },
+                            {
+                                "name": "WillowYukata_Scared",
+                                "type": "graphic",
+                                "parent": "D8EB010C62A92544837BCDF7A58B9B8D9DE2"
+                            },
+                            {
+                                "name": "WillowYukata_ScaredBlush",
+                                "type": "graphic",
+                                "parent": "D8EB010C62A92544837BCDF7A58B9B8D9DE2"
+                            },
+                            {
+                                "name": "WillowYukata_Sick",
+                                "type": "graphic",
+                                "parent": "D8EB010C62A92544837BCDF7A58B9B8D9DE2"
+                            }
+                        ],
+                        "parent": "D6EA6395932A7547018AAA550303AC344566",
+                        "isa": null,
+                        "_UID": 1896002
+                    }
+                ],
+                "isa": null,
+                "_UID": 1520942
+            }
+        ]
+    },
+    {
+        "path": "Graphics/Backgrounds",
+        "resources": [
+            {
+                "type": "folder",
+                "name": "B0BE8C6F82B50841FF7ABE428239A27E5222",
+                "displayName": "Date Locations",
+                "resources": [
+                    {
+                        "name": "Amusementpark_Morning",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Amusementpark_Night",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Amusementpark_Sunset",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Aquarium_Morning",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Beach_Morning",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Beach_Night",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Beach_Sunset",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Bench_Morning",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Bench_Night",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Bench_Sunset",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Bookstore_Morning1",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Bookstore_Morning2",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Bookstore_Night1",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Bookstore_Night2",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "CafeNoFood_Morning",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "CafeNoFood_Night1",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "CafeNoFood_Night2",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "CafeWithCake_Morning",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "CafeWithCake_Night",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "City2_Morning",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "City2_Night",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "City2_Sunset",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "City3_Morning",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "City3_Night",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "City3_Sunset",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "City_Morning",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "City_Night",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "ConcertStage1",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "ConcertStage2",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Hotspring_Morning",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Hotspring_Night",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Hotspring_Sunset",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Restaurant_Morning1",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Restaurant_Morning2",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Restaurant_Morning3",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Restaurant_Night1",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Restaurant_Night2",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Restaurant_Night3",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Shoppingmall_Morning",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Shoppingmall_Night",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "SpaResort_Morning",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "SpaResort_Night",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "SummerFestivalEempty",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "SummerFestivalFoodStall",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "SummerFestivalPacked",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "TheaterEmpty",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "TheaterFew1",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "TheaterFew2",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "TheaterFull1",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "TheaterFull2",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    }
+                ],
+                "isa": null,
+                "_UID": 1242083
+            },
+            {
+                "type": "folder",
+                "name": "15928152658AE14AC97827083083B901DA95",
+                "displayName": "Home",
+                "resources": [
+                    {
+                        "name": "Apartment2Inside_Morning",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Apartment2Inside_Night",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Apartment2Inside_Sunset",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Apartment2Outside_Morning",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Apartment2Outside_Night",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Apartment2Outside_Sunset",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "ApartmentInside_Morning",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "ApartmentInside_Night",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "ApartmentInside_Sunset",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "ApartmentOutside_Morning",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "ApartmentOutside_Night",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "ApartmentOutside_Sunset",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "HomeOutside_Morning1",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "HomeOutside_Morning2",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "HomeOutside_Morning3",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "HomeOutside_Night1",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "HomeOutside_Night2",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "HomeOutside_Night3",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Japanese-styleMansionInside_Morning",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Japanese-styleMansionInside_Night",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Japanese-styleMansionInside_Sunset",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Japanese-styleMansionOutside_Morning",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Japanese-styleMansionOutside_Night",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Japanese-styleMansionOutside_Sunset",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Kitchen_Morning1",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Kitchen_Morning2",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Kitchen_Night1",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Kitchen_Night2",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "KitchenMessy_Morning1",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "KitchenMessy_Morning2",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "KitchenMessy_Night1",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "KitchenMessy_Night2",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "MansionInside_Morning",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "MansionInside_Night",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "MansionInside_Sunset",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "MansionOutside_Morning",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "MansionOutside_Night",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "MansionOutside_Sunset",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeF_Morning1",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeF_Morning2",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeF_Morning3",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeF_Morning4",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeF_Morning5",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeF_Morning6",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeF_Night1",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeF_Night2",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeF_Night3",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeF_Night4",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeF_Night5",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeF_Night6",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeM_Morning1",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeM_Morning2",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeM_Morning3",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeM_Night1",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeM_Night2",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeM_Night3",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeM_Night4",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeM_Night5",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Residentialarea_Morning",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Residentialarea_Night",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Residentialarea_Sunset",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    }
+                ],
+                "isa": null,
+                "_UID": 1251806
+            },
+            {
+                "type": "folder",
+                "name": "16A02B25734DB14FAE6B5BD3769F2C9EDA94",
+                "displayName": "School",
+                "resources": [
+                    {
+                        "name": "Classroom1_Morning1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom1_Morning2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom1_Morning3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom1_Morning4",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom1_Morning5",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom1_Night1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom1_Night2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom1_Night3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom1_Sunset1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom1_Sunset2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom1_Sunset3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom1_Sunset4",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom1_Sunset5",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom2_Festival1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom2_Festival2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom2_Festival3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom2_Morning1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom2_Morning2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom2_Morning3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom2_Night1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom2_Night2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom2_Night3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom2_Sunset1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom2_Sunset2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom2_Sunset3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Gym_Morning",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Gym_Morning1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Gym_Morning2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Gym_Night",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Gym_Night1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Gym_Night2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "GymAssembly_Morning",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "GymAssembly_Night",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "InfirmaryEmptyBed_Morning1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "InfirmaryEmptyBed_Morning2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "InfirmaryEmptyBed_Night1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "InfirmaryEmptyBed_Night2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "InfirmaryWithStudent_Morning1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "InfirmaryWithStudent_Morning2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "LibraryBookshelves_Morning1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "LibraryBookshelves_Morning2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "LibraryBookshelves_Morning3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "LibraryBookshelves_Night1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "LibraryBookshelves_Night2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "LibraryBookshelves_Night3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "LibraryStudyArea_Morning1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "LibraryStudyArea_Morning2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "LibraryStudyArea_Morning3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "LibraryStudyArea_Night1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "LibraryStudyArea_Night2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "LibraryStudyArea_Night3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "School_Hallway1_1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "School_Hallway1_2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "School_Hallway1_rain",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "School_Hallway1_snow",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "School_Hallway1_spring",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "School_Hallway1_sunset",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside2_Morning",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside2_Night",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside2_Sunset",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Cloudy1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Morning1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Morning2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Morning3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_night",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Night1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Night2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Night3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_rain",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Rain1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Rain2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Rain3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_sunset",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Sunset1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Sunset2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Sunset3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "StudentdormitoryInside_Morning",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "StudentdormitoryInside_Night",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "StudentdormitoryInside_Sunset",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "StudentdormitoryOutside_Morning",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "StudentdormitoryOutside_Night",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "StudentdormitoryOutside_Sunset",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    }
+                ],
+                "isa": null,
+                "_UID": 1254030
+            },
+            {
+                "type": "folder",
+                "name": "0BF4B0E8389E084F8C2A8448B7A9B241735D",
+                "displayName": "Special",
+                "resources": [
+                    {
+                        "name": "Background_picture2",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Background_picture3",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Background_picture4",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Background_picture5",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Background_picture6",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Concentration _line1",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Concentration _line2",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Concentration _line3",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Concentration _line4",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Concentration _line5",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Moonlight1",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Moonlight2",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Moonlight3",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Moonlight4",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "NightSky1",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "NightSky2",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Sky_Cloudy",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Sky_Morning",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Sky_Summer",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Stars1",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Stars2",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Stars3",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Sunset1",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Sunset2",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Sunset3",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Sunset4",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Background_picture1",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    }
+                ],
+                "isa": null,
+                "_UID": 1255110
+            }
+        ]
+    },
+    {
+        "path": "Graphics/Pictures",
+        "resources": [
+            {
+                "type": "folder",
+                "name": "85EF76BFKEA74A4DAFS971BE829A634E4220",
+                "displayName": "CG Gallery",
+                "resources": [
+                    {
+                        "name": "Metis_CG",
+                        "type": "graphic",
+                        "parent": "85EF76BFKEA74A4DAFS971BE829A634E4220",
+                        "isa": null,
+                        "_UID": 152891
+                    },
+                    {
+                        "name": "Metis_CG_Thumb",
+                        "type": "graphic",
+                        "parent": "85EF76BFKEA74A4DAFS971BE829A634E4220",
+                        "isa": null,
+                        "_UID": 152893
+                    }
+                ],
+                "isa": null,
+                "_UID": 130585
+            },
+            {
+                "type": "folder",
+                "name": "357B89457FFD83407B6AA2D3DEA2997837AA",
+                "displayName": "Items",
+                "resources": [
+                    {
+                        "name": "00_key",
+                        "type": "graphic",
+                        "parent": "357B89457FFD83407B6AA2D3DEA2997837AA"
+                    },
+                    {
+                        "name": "01_phone",
+                        "type": "graphic",
+                        "parent": "357B89457FFD83407B6AA2D3DEA2997837AA"
+                    }
+                ],
+                "isa": null,
+                "_UID": 181004
+            },
+            {
+                "type": "folder",
+                "name": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                "displayName": "UI",
+                "resources": [
+                    {
+                        "type": "folder",
+                        "name": "19ED82B893A7F34ABF2BFF6544310CE53F07",
+                        "displayName": "Cursor",
+                        "resources": [
+                            {
+                                "name": "cursor3",
+                                "type": "graphic",
+                                "parent": "19ED82B893A7F34ABF2BFF6544310CE53F07"
+                            },
+                            {
+                                "name": "cursor1",
+                                "type": "graphic",
+                                "parent": "19ED82B893A7F34ABF2BFF6544310CE53F07"
+                            },
+                            {
+                                "name": "cursor2",
+                                "type": "graphic",
+                                "parent": "19ED82B893A7F34ABF2BFF6544310CE53F07"
+                            },
+                            {
+                                "name": "cursor4",
+                                "type": "graphic",
+                                "parent": "19ED82B893A7F34ABF2BFF6544310CE53F07"
+                            }
+                        ],
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 206770
+                    },
+                    {
+                        "type": "folder",
+                        "name": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                        "displayName": "Mobile",
+                        "resources": [
+                            {
+                                "name": "m-arrow",
+                                "type": "graphic",
+                                "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                                "isa": null
+                            },
+                            {
+                                "name": "m-arrow-disabled",
+                                "type": "graphic",
+                                "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                                "isa": null
+                            },
+                            {
+                                "name": "m-diamond-large-off",
+                                "type": "graphic",
+                                "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                                "isa": null
+                            },
+                            {
+                                "name": "m-diamond-large-on",
+                                "type": "graphic",
+                                "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                                "isa": null
+                            },
+                            {
+                                "name": "m-diamond-small-off",
+                                "type": "graphic",
+                                "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                                "isa": null
+                            },
+                            {
+                                "name": "m-diamond-small-on",
+                                "type": "graphic",
+                                "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                                "isa": null
+                            },
+                            {
+                                "name": "msg-diamond-small-off",
+                                "type": "graphic",
+                                "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                                "isa": null
+                            },
+                            {
+                                "name": "msg-diamond-small-on",
+                                "type": "graphic",
+                                "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                                "isa": null
+                            }
+                        ],
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130918
+                    },
+                    {
+                        "name": "bg-generic",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130920
+                    },
+                    {
+                        "name": "diamond-large-off",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130922
+                    },
+                    {
+                        "name": "diamond-large-on",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130924
+                    },
+                    {
+                        "name": "diamond-small-off",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130926
+                    },
+                    {
+                        "name": "diamond-small-on",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130928
+                    },
+                    {
+                        "name": "dropshadow",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130930
+                    },
+                    {
+                        "name": "entrybox",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130932
+                    },
+                    {
+                        "name": "locked",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130934
+                    },
+                    {
+                        "name": "message_caret",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 204495
+                    },
+                    {
+                        "name": "scrollbar",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130936
+                    },
+                    {
+                        "name": "selection",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130938
+                    },
+                    {
+                        "name": "selection-inactive",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130940
+                    },
+                    {
+                        "name": "skin-frame",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130942
+                    },
+                    {
+                        "name": "skin-stretch",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130944
+                    },
+                    {
+                        "name": "skin-tile",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130946
+                    },
+                    {
+                        "name": "thumbnailshadow",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130948
+                    }
+                ],
+                "isa": null,
+                "_UID": 130587
+            },
+            {
+                "name": "web-start-screen",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 138891
+            }
+        ]
+    },
+    {
+        "path": "Graphics/Icons",
+        "resources": [
+            {
+                "name": "Germany",
+                "type": "graphic",
+                "isa": null
+            },
+            {
+                "name": "Japan",
+                "type": "graphic",
+                "isa": null
+            },
+            {
+                "name": "United-Kingdom",
+                "type": "graphic",
+                "isa": null
+            }
+        ]
+    },
+    {
+        "path": "Graphics/Masks",
+        "resources": [
+            {
+                "name": "Blinds_Hor",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127354
+            },
+            {
+                "name": "Blinds_V",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127356
+            },
+            {
+                "name": "Circle",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127358
+            },
+            {
+                "name": "Circle_Square",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127360
+            },
+            {
+                "name": "Circle_Square_Ver2",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127362
+            },
+            {
+                "name": "Circle_Ver2",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127364
+            },
+            {
+                "name": "Dissolve",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127366
+            },
+            {
+                "name": "Dissolve_Ver2",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127368
+            },
+            {
+                "name": "Heart",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127370
+            },
+            {
+                "name": "Heart_Square",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127372
+            },
+            {
+                "name": "Heart_Ver2",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127374
+            },
+            {
+                "name": "HeartB",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127376
+            },
+            {
+                "name": "HeartB_Ver2",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127378
+            },
+            {
+                "name": "Rect",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127380
+            },
+            {
+                "name": "Rect_Ver2",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127382
+            },
+            {
+                "name": "Splotches",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127384
+            },
+            {
+                "name": "Splotches_Ver2",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127386
+            },
+            {
+                "name": "Star",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127388
+            },
+            {
+                "name": "Star_Square",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127390
+            },
+            {
+                "name": "Star_Square_Ver2",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127392
+            },
+            {
+                "name": "Star_Ver2",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127394
+            }
+        ]
+    },
+    {
+        "path": "Graphics/Fonts",
+        "resources": []
+    },
+    {
+        "path": "Audio/Music",
+        "resources": [
+            {
+                "name": "Competitive_-_Fired_Up",
+                "type": "audio",
+                "isa": null,
+                "_UID": 288695
+            },
+            {
+                "name": "Festival_-_Celebrating_Tradition",
+                "type": "audio",
+                "isa": null,
+                "_UID": 288697
+            },
+            {
+                "name": "Nostalgia_-_Fond_Memories",
+                "type": "audio",
+                "isa": null,
+                "_UID": 288699
+            },
+            {
+                "name": "Playful_-_Kidding_Around",
+                "type": "audio",
+                "isa": null,
+                "_UID": 288701
+            },
+            {
+                "name": "Romance_-_Dreaming_Of_You",
+                "type": "audio",
+                "isa": null,
+                "_UID": 288703
+            },
+            {
+                "name": "Romance_-_Love_Never_Ends",
+                "type": "audio",
+                "isa": null,
+                "_UID": 288705
+            },
+            {
+                "name": "Sad_-_Wistful_Longing",
+                "type": "audio",
+                "isa": null,
+                "_UID": 288707
+            },
+            {
+                "name": "School_-_First_Day",
+                "type": "audio",
+                "isa": null,
+                "_UID": 288709
+            },
+            {
+                "name": "School_-_Lunch_Break",
+                "type": "audio",
+                "isa": null,
+                "_UID": 288711
+            },
+            {
+                "name": "Theme_-_Forever_Together",
+                "type": "audio",
+                "isa": null,
+                "_UID": 288713
+            },
+            {
+                "name": "Tutorial_-_Good_Mood",
+                "type": "audio",
+                "isa": null,
+                "_UID": 288715
+            },
+            {
+                "type": "folder",
+                "name": "B354E9FF1447504D067830964CED41FCB49B",
+                "displayName": "New Group",
+                "resources": [],
+                "isa": null,
+                "_UID": 161734
+            },
+            {
+                "name": "Wedding_-_Wedding_March",
+                "type": "audio",
+                "isa": null,
+                "_UID": 288717
+            }
+        ]
+    },
+    {
+        "path": "Audio/Sounds",
+        "resources": [
+            {
+                "type": "folder",
+                "name": "EBDB475A7FA6084E9F692D17174FF0158E31",
+                "displayName": "Music Effects",
+                "resources": [
+                    {
+                        "name": "ME_-_school_chimes_01",
+                        "type": "audio",
+                        "parent": "EBDB475A7FA6084E9F692D17174FF0158E31"
+                    },
+                    {
+                        "name": "ME_-_school_chimes_02",
+                        "type": "audio",
+                        "parent": "EBDB475A7FA6084E9F692D17174FF0158E31"
+                    },
+                    {
+                        "name": "ME_Game_Over",
+                        "type": "audio",
+                        "parent": "EBDB475A7FA6084E9F692D17174FF0158E31"
+                    },
+                    {
+                        "name": "ME_Level_Up_Fail",
+                        "type": "audio",
+                        "parent": "EBDB475A7FA6084E9F692D17174FF0158E31"
+                    },
+                    {
+                        "name": "ME_Level_Up_Success",
+                        "type": "audio",
+                        "parent": "EBDB475A7FA6084E9F692D17174FF0158E31"
+                    },
+                    {
+                        "name": "ME_Sleep_01",
+                        "type": "audio",
+                        "parent": "EBDB475A7FA6084E9F692D17174FF0158E31"
+                    },
+                    {
+                        "name": "ME_Sleep_02",
+                        "type": "audio",
+                        "parent": "EBDB475A7FA6084E9F692D17174FF0158E31"
+                    }
+                ],
+                "isa": null,
+                "_UID": 291116
+            },
+            {
+                "type": "folder",
+                "name": "596171293B19A645921AD5A2DF965604D3E1",
+                "displayName": "Sound Effects",
+                "resources": [
+                    {
+                        "name": "ambulance_siren",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "basketball_bounce_single",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "basketball_dribble",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "book_close",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "book_page_turn",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "cellphone_ring",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "cellphone_text_message_received",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "chair_squeaky",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "cicadas",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "clock_chime",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "clock_tick_tock_01",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "clock_tick_tock_02",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "cooking_boiling_water",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "cooking_frying_sizzle",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "cooking_oven_burner",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "door_close",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "door_open",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "door_open_creaky",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "door_sliding",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "fire_alarm_01",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "fire_alarm_02",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "footsteps_creaky_stairs",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "footsteps_fast",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "footsteps_normal",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "footsteps_slow",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "glass_break_01",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "glass_break_02",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "school_bell",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "school_chalk_on_chalkboard",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "thud_01",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "thud_02",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "thud_03",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "writing_inkpen",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "writing_pencil_01",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "writing_pencil_02",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "writing_pencil_eraser",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    }
+                ],
+                "isa": null,
+                "_UID": 292980
+            },
+            {
+                "type": "folder",
+                "name": "ABCD5AC67A276749B11AC05560C3D6482B3D",
+                "displayName": "System",
+                "resources": [
+                    {
+                        "name": "choice_cancel_02",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "choice_confirm_01",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "choice_confirm_02",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "choice_confirm_03",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "cursor",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "exit_01",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "exit_02",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "invalid_buzz_01",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "invalid_buzz_02",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "invalid_buzz_03",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "load_01",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "load_02",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "save_01",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "save_02",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "choice_cancel_01",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    }
+                ],
+                "isa": null,
+                "_UID": 337064
+            }
+        ]
+    },
+    {
+        "path": "Live2D",
+        "resources": []
+    },
+    {
+        "path": "Movies",
+        "resources": [
+            {
+                "name": "lrain.webmhd",
+                "type": "video"
+            },
+            {
+                "name": "fog.webmhd",
+                "type": "video"
+            },
+            {
+                "name": "rays.webmhd",
+                "type": "video"
+            },
+            {
+                "name": "rain2.webmhd",
+                "type": "video"
+            },
+            {
+                "name": "snow.webmhd",
+                "type": "video"
+            },
+            {
+                "name": "rain1-white.webmhd",
+                "type": "video"
+            },
+            {
+                "name": "rain1.webmhd",
+                "type": "video"
+            },
+            {
+                "name": "blizzard.webmhd",
+                "type": "video"
+            }
+        ]
+    }
+]

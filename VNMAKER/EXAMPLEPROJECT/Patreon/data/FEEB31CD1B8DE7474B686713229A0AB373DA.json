@@ -1,0 +1,20 @@
+{
+    "uid": "FEEB31CD1B8DE7474B686713229A0AB373DA",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Patreon",
+        "type": "game_script",
+        "content": "",
+        "order": 10,
+        "parentId": "ROOT",
+        "folder": true,
+        "scriptType": 0,
+        "decoded": true
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

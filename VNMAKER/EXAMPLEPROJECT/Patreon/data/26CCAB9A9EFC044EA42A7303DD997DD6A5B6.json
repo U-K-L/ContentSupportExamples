@@ -1,0 +1,18 @@
+{
+    "uid": "26CCAB9A9EFC044EA42A7303DD997DD6A5B6",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "PatreonVerify",
+        "type": "script",
+        "parentId": "07DD30D15041E0DE",
+        "order": 6,
+        "content": "LyogTmV3IEphdmFTY3JpcHQgRG9jdW1lbnQgKi8KY29uc29sZS5sb2coIkhlbGxvIHdvcmxkIik="
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "order"
+    ]
+}

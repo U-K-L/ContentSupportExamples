@@ -1,0 +1,19 @@
+{
+    "uid": "0597B91F2BCE32494299BD751306D0FDD1F8",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Object_ImageMapHotspot",
+        "type": "game_script",
+        "content": "# ===================================================================\n#\n#   Script: Object_ImageMapHotspot\n#\n#   $$COPYRIGHT$$\n#\n# ===================================================================\nclass Object_ImageMapHotspot extends gs.Object_Picture\n    @objectCodecBlackList = [\"parent\"]\n    \n    @toDataBundle: (object, context) ->\n        return { \n            enabled: object.enabled\n            selected: object.selected\n        }\n   \n    ###*\n    * A game object used for pictures in a scene.\n    *\n    * @module gs\n    * @class Object_Picture\n    * @extends gs.Object_Visual\n    * @memberof gs\n    * @constructor\n    ###\n    constructor: () ->\n        super()\n        \ngs.Object_ImageMapHotspot = Object_ImageMapHotspot",
+        "order": 10,
+        "parentId": "A05E7029K45DBA459BSADF4EEC07A526241A",
+        "folder": false,
+        "scriptType": 0,
+        "compiledContent": "var Object_ImageMapHotspot,\n  extend = function(child, parent) { for (var key in parent) { if (hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },\n  hasProp = {}.hasOwnProperty;\n\nObject_ImageMapHotspot = (function(superClass) {\n  extend(Object_ImageMapHotspot, superClass);\n\n  Object_ImageMapHotspot.objectCodecBlackList = [\"parent\"];\n\n  Object_ImageMapHotspot.toDataBundle = function(object, context) {\n    return {\n      enabled: object.enabled,\n      selected: object.selected\n    };\n  };\n\n\n  /**\n  * A game object used for pictures in a scene.\n  *\n  * @module gs\n  * @class Object_Picture\n  * @extends gs.Object_Visual\n  * @memberof gs\n  * @constructor\n   */\n\n  function Object_ImageMapHotspot() {\n    Object_ImageMapHotspot.__super__.constructor.call(this);\n  }\n\n  return Object_ImageMapHotspot;\n\n})(gs.Object_Picture);\n\ngs.Object_ImageMapHotspot = Object_ImageMapHotspot;\n\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQU9BLElBQUEsc0JBQUE7RUFBQTs7O0FBQU07OztFQUNGLHNCQUFDLENBQUEsb0JBQUQsR0FBd0IsQ0FBQyxRQUFEOztFQUV4QixzQkFBQyxDQUFBLFlBQUQsR0FBZSxTQUFDLE1BQUQsRUFBUyxPQUFUO0FBQ1gsV0FBTztNQUNILE9BQUEsRUFBUyxNQUFNLENBQUMsT0FEYjtNQUVILFFBQUEsRUFBVSxNQUFNLENBQUMsUUFGZDs7RUFESTs7O0FBTWY7Ozs7Ozs7Ozs7RUFTYSxnQ0FBQTtJQUNULHNEQUFBO0VBRFM7Ozs7R0FsQm9CLEVBQUUsQ0FBQzs7QUFxQnhDLEVBQUUsQ0FBQyxzQkFBSCxHQUE0QiIsInNvdXJjZXNDb250ZW50IjpbIiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PVxuI1xuIyAgIFNjcmlwdDogT2JqZWN0X0ltYWdlTWFwSG90c3BvdFxuI1xuIyAgICQkQ09QWVJJR0hUJCRcbiNcbiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PVxuY2xhc3MgT2JqZWN0X0ltYWdlTWFwSG90c3BvdCBleHRlbmRzIGdzLk9iamVjdF9QaWN0dXJlXG4gICAgQG9iamVjdENvZGVjQmxhY2tMaXN0ID0gW1wicGFyZW50XCJdXG4gICAgXG4gICAgQHRvRGF0YUJ1bmRsZTogKG9iamVjdCwgY29udGV4dCkgLT5cbiAgICAgICAgcmV0dXJuIHsgXG4gICAgICAgICAgICBlbmFibGVkOiBvYmplY3QuZW5hYmxlZFxuICAgICAgICAgICAgc2VsZWN0ZWQ6IG9iamVjdC5zZWxlY3RlZFxuICAgICAgICB9XG4gICBcbiAgICAjIyMqXG4gICAgKiBBIGdhbWUgb2JqZWN0IHVzZWQgZm9yIHBpY3R1cmVzIGluIGEgc2NlbmUuXG4gICAgKlxuICAgICogQG1vZHVsZSBnc1xuICAgICogQGNsYXNzIE9iamVjdF9QaWN0dXJlXG4gICAgKiBAZXh0ZW5kcyBncy5PYmplY3RfVmlzdWFsXG4gICAgKiBAbWVtYmVyb2YgZ3NcbiAgICAqIEBjb25zdHJ1Y3RvclxuICAgICMjI1xuICAgIGNvbnN0cnVjdG9yOiAoKSAtPlxuICAgICAgICBzdXBlcigpXG4gICAgICAgIFxuZ3MuT2JqZWN0X0ltYWdlTWFwSG90c3BvdCA9IE9iamVjdF9JbWFnZU1hcEhvdHNwb3QiXX0=\n//# sourceURL=Object_ImageMapHotspot_186.js"
+    },
+    "summary": [
+        "name",
+        "type"
+    ]
+}

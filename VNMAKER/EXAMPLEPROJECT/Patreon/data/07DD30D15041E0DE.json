@@ -1,0 +1,15 @@
+{
+    "uid": "07DD30D15041E0DE",
+    "lastModificationTime": null,
+    "items": {
+        "name": "Patreon",
+        "type": "project",
+        "version": "1.0.1033",
+        "gameTitle": "ContentSupport"
+    },
+    "summary": [
+        "name",
+        "type",
+        "version"
+    ]
+}

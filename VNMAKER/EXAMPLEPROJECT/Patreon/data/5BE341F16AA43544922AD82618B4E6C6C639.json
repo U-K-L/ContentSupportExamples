@@ -1,0 +1,107 @@
+{
+    "uid": "5BE341F16AA43544922AD82618B4E6C6C639",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "id": "gs.WaitForInput",
+        "displayName": "$$ACB09EA51C81064AFF1BCE911402904090A0",
+        "group": "$$2DCE5AEAK657FA4F5BS8EC3EA543DC123D24",
+        "subGroup": "$$BC4DFF3B1A9953463A7BE1E9FA84DF33D265",
+        "defaultValue": {
+            "key": 16,
+            "state": 1,
+            "action": {
+                "type": 0,
+                "data": {
+                    "label": "$$C50EA7EF0592134BEF59E098BD7961D34EB4",
+                    "commonEventId": 0
+                }
+            }
+        },
+        "quickItems": [
+            {
+                "label": "$$A7A7C7CA4EA2C64C43685528C64746451F71",
+                "valueFormula": "return GS.CONST.KEY_FIELDS.first(function(x){ return x.alias == p.key}).name;",
+                "attribute": "key",
+                "identifier": "key",
+                "type": "GSQPopupField",
+                "dataSource": [
+                    {
+                        "name": "$$6ED7DC92706A164F375A3085915CE5F675A5",
+                        "alias": 16
+                    },
+                    {
+                        "name": "$$0DAD83E65AAC7747B33B1448994B14543065",
+                        "alias": 88
+                    },
+                    {
+                        "name": "$$565A00C13E328143F85983D57A0F6DAF9184",
+                        "alias": 65
+                    },
+                    {
+                        "name": "$$635F4F4686746440076B9AB17C10DE1BE8B2",
+                        "alias": 83
+                    },
+                    {
+                        "name": "$$F27CCFA62E2AF54A5939B6328F3AA4A232EF",
+                        "alias": 68
+                    },
+                    {
+                        "name": "$$246F25B679514346FE5B9D71B6B86C6FC203",
+                        "alias": 81
+                    },
+                    {
+                        "name": "$$9DE271A74E616343170BDDD773C3FCC933B8",
+                        "alias": 87
+                    },
+                    {
+                        "name": "$$D0351CBF3EFAB74A40199EB5F11AB466A1F5",
+                        "alias": 13
+                    },
+                    {
+                        "name": "$$10EE899E08A136460C59BFC65B71B9762C9C",
+                        "alias": 68
+                    },
+                    {
+                        "name": "$$E5EC2E32396D0944133ABCF7F3972A22CD47",
+                        "alias": 1
+                    },
+                    {
+                        "name": "$$D2B1D1C82FA02246143847764B431C2BD5B3",
+                        "alias": 3
+                    },
+                    {
+                        "name": "$$A83E228491E695450008E3C0CA25B36CF752",
+                        "alias": 2
+                    }
+                ]
+            },
+            {
+                "type": "GSQPopupField",
+                "label": "$$C5EB04527677A744804A8F85744C8BE285F3",
+                "valueFormula": "return GS.CONST.KEY_STATES.first(function(x){ return x.alias == p.state }).name",
+                "dataSource": [
+                    {
+                        "name": "$$233DD12C88157548949AFB9848169EE37A43",
+                        "alias": 1
+                    },
+                    {
+                        "name": "$$7C5825B64E73714909092318AC4AC1DAFEF2",
+                        "alias": 2
+                    }
+                ],
+                "attribute": "state"
+            }
+        ],
+        "sections": [],
+        "rawContent": "{\n    \"id\": \"gs.WaitForInput\",\n    \"displayName\": \"$$ACB09EA51C81064AFF1BCE911402904090A0\",\n    \"group\": \"$$2DCE5AEAK657FA4F5BS8EC3EA543DC123D24\",\n    \"subGroup\": \"$$BC4DFF3B1A9953463A7BE1E9FA84DF33D265\",\n    \"defaultValue\": { \"key\": GS.CONST.KEY_FIELDS[0].alias, \"state\": 1, \"action\": { \"type\": 0, \"data\": { \"label\": \"$$C50EA7EF0592134BEF59E098BD7961D34EB4\", \"commonEventId\": 0 } } },\n    \"quickItems\": [\n        {\n            \"label\": \"$$A7A7C7CA4EA2C64C43685528C64746451F71\",\n            \"valueFormula\": \"return GS.CONST.KEY_FIELDS.first(function(x){ return x.alias == p.key}).name;\",\n            \"attribute\": \"key\",\n            \"identifier\": \"key\",\n            \"type\": \"GSQPopupField\",\n            \"dataSource\": GS.CONST.KEY_FIELDS\n        },\n        {\n            \"type\": \"GSQPopupField\",\n            \"label\": \"$$C5EB04527677A744804A8F85744C8BE285F3\",\n            \"valueFormula\": \"return GS.CONST.KEY_STATES.first(function(x){ return x.alias == p.state }).name\",\n            \"dataSource\": GS.CONST.KEY_STATES,\n            \"attribute\": \"state\"\n        }\n    ],\n    \"sections\": [\n    ]\n}",
+        "name": "Wait for Input",
+        "type": "event_command",
+        "parentId": "97163D89K8F9DA45ADSA51CE47DE4ECE311C",
+        "order": 23
+    },
+    "summary": [
+        "name",
+        "type"
+    ]
+}

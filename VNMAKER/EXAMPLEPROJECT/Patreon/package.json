@@ -1,0 +1,12 @@
+{
+    "name": "VNM_Test_Patreon",
+    "main": "GameOffline.html",
+    "chromium-args": "--ignore-gpu-blacklist",
+    "window": {
+        "title": "Game Test",
+        "icon": "icon.png",
+        "always-on-top": false,
+        "width": 1280,
+        "height": 720
+    }
+}

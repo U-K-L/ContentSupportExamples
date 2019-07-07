@@ -1,0 +1,118 @@
+{
+    "uid": "63C3F8F1K3103A4B0BS914DE2C6A0648F6A9",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "parentId": "CCC1D58AKA96AA4B0ESA33CE6CCC06CB5662",
+        "displayName": "$$920AFC8E549CC348534811D3370FD77FC8F2",
+        "windowTitle": "$$90433D4CK4E35A4DFDS862EEFB0C4808F17E",
+        "type": "event_command",
+        "id": "gs.GetInputData",
+        "group": "$$C1953650K4FD7A4268SB298E0BEFC554D88E",
+        "subGroup": "$$271150F15AF34549943BCE034E6B8B439297",
+        "windowSize": {
+            "w": 600,
+            "h": 260
+        },
+        "nodes": [],
+        "defaultValue": {
+            "field": 0,
+            "state": 0,
+            "targetVariable": {
+                "scope": 1,
+                "index": 0,
+                "domain": "com.degica.vnm.default"
+            }
+        },
+        "quickItems": [
+            {
+                "label": "$$9EE4CE017D7EE74B2D7B1FA77978BD1CD3DB",
+                "valueFormula": "return GS.CONST.INPUT_DATA_FIELDS[p.field];",
+                "attribute": "field",
+                "identifier": "field",
+                "type": "GSQPopupField",
+                "dataSource": [
+                    "$$6ED7DC92706A164F375A3085915CE5F675A5",
+                    "$$0DAD83E65AAC7747B33B1448994B14543065",
+                    "$$565A00C13E328143F85983D57A0F6DAF9184",
+                    "$$635F4F4686746440076B9AB17C10DE1BE8B2",
+                    "$$246F25B679514346FE5B9D71B6B86C6FC203",
+                    "$$9DE271A74E616343170BDDD773C3FCC933B8",
+                    "$$D0351CBF3EFAB74A40199EB5F11AB466A1F5",
+                    "$$10EE899E08A136460C59BFC65B71B9762C9C",
+                    "$$0627F4896315D3420C7816C1C2068FB6734E",
+                    "$$EED16AF89235A848B569D35898A9A2887F48",
+                    "$$6C6A0A0F84C235428A88D969C2466B508783",
+                    "$$E5EC2E32396D0944133ABCF7F3972A22CD47",
+                    "$$D2B1D1C82FA02246143847764B431C2BD5B3",
+                    "$$A83E228491E695450008E3C0CA25B36CF752"
+                ],
+                "showItems": [
+                    [
+                        "numberVariable"
+                    ],
+                    [
+                        "numberVariable"
+                    ],
+                    [
+                        "numberVariable"
+                    ],
+                    [
+                        "numberVariable"
+                    ],
+                    [
+                        "numberVariable"
+                    ],
+                    [
+                        "numberVariable"
+                    ],
+                    [
+                        "numberVariable"
+                    ],
+                    [
+                        "numberVariable"
+                    ],
+                    [
+                        "numberVariable"
+                    ],
+                    [
+                        "numberVariable"
+                    ],
+                    [
+                        "numberVariable"
+                    ],
+                    [
+                        "numberVariable"
+                    ],
+                    [
+                        "numberVariable"
+                    ],
+                    [
+                        "numberVariable"
+                    ]
+                ]
+            },
+            {
+                "label": "$$279A870082643340194815582532E3A95B7F",
+                "identifier": "numberVariable",
+                "valueFormula": "return fmtNumVar(p.targetVariable)",
+                "type": "GSQPopupField",
+                "dialog": {
+                    "uid": "dialog.selectVariable",
+                    "parameters": {
+                        "dataSource": "numbers"
+                    }
+                },
+                "attribute": "targetVariable"
+            }
+        ],
+        "sections": [],
+        "rawContent": "{\n    \"parentId\": \"AFAD6CEFK59C1A4298SBABFE7AEC1B964622\",\n    \"displayName\": \"$$920AFC8E549CC348534811D3370FD77FC8F2\",\n    \"windowTitle\": \"$$90433D4CK4E35A4DFDS862EEFB0C4808F17E\",\n    \"type\": \"event_command\",\n    \"id\": \"gs.GetInputData\",\n    \"group\": \"$$C1953650K4FD7A4268SB298E0BEFC554D88E\",\n    \"subGroup\": \"$$271150F15AF34549943BCE034E6B8B439297\",\n    \"windowSize\": {\n        \"w\": 600,\n        \"h\": 260\n    },\n    \"nodes\": [\n    ],\n    \"defaultValue\": { \"field\": 0, \"state\": 0, \"targetVariable\": { \"scope\": 1, \"index\": 0, \"domain\": GS.CONST.DEFAULT_DOMAIN } },\n    \"quickItems\": [\n        {\n            \"label\": \"$$9EE4CE017D7EE74B2D7B1FA77978BD1CD3DB\",\n            \"valueFormula\": \"return GS.CONST.INPUT_DATA_FIELDS[p.field];\",\n            \"attribute\": \"field\",\n            \"identifier\": \"field\",\n            \"type\": \"GSQPopupField\",\n            \"dataSource\": GS.CONST.INPUT_DATA_FIELDS,\n            \"showItems\": [\n                [\"numberVariable\"], \n                [\"numberVariable\"],\n                [\"numberVariable\"],\n                [\"numberVariable\"],\n                [\"numberVariable\"],\n                [\"numberVariable\"],\n                [\"numberVariable\"],\n                [\"numberVariable\"],\n                [\"numberVariable\"],\n                [\"numberVariable\"],\n                [\"numberVariable\"],\n                [\"numberVariable\"],\n                [\"numberVariable\"],\n                [\"numberVariable\"]\n            ]\n        },\n        {\n            \"label\": \"$$279A870082643340194815582532E3A95B7F\",\n            \"identifier\": \"numberVariable\",\n            \"valueFormula\": \"return fmtNumVar(p.targetVariable)\",\n            \"type\": \"GSQPopupField\",\n            \"dialog\": { \"uid\": \"dialog.selectVariable\", \"parameters\": { \"dataSource\": \"numbers\" } },\n            \"attribute\": \"targetVariable\"\n        }\n    ],\n    \"sections\": [\n    ]\n}",
+        "name": "Input Data",
+        "order": 6
+    },
+    "summary": [
+        "name",
+        "type"
+    ]
+}
