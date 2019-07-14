@@ -1,0 +1,473 @@
+{
+    "uid": "82AF680340840541F5788806D814F7D7482C",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "TwoStep",
+        "type": "data_record",
+        "order": 1,
+        "category": "commonEvents",
+        "id": "82AF680340840541F5788806D814F7D7482C",
+        "isFolder": false,
+        "data": {
+            "name": "TwoStep",
+            "startCondition": 0,
+            "conditionEnabled": false,
+            "parallel": false,
+            "autoPreload": true,
+            "singleInstance": true,
+            "inline": false,
+            "parameters": [],
+            "commands": [
+                {
+                    "id": "gs.Script",
+                    "params": {
+                        "script": "OpenContentSupportTwoStep()"
+                    },
+                    "uid": "FE7E097937BAE54E1D487F29C86171C74090",
+                    "indent": 0,
+                    "expanded": true
+                },
+                {
+                    "id": "gs.ShowMessage",
+                    "params": {
+                        "waitForCompletion": 1,
+                        "duration": 15,
+                        "expressionId": null,
+                        "custom": {
+                            "object": {
+                                "x": 0,
+                                "y": 0,
+                                "size": {
+                                    "width": 300,
+                                    "height": 100
+                                }
+                            }
+                        },
+                        "message": {
+                            "lcId": "D04E26FE1F8C33408B693D24D5251064C1BF",
+                            "defaultText": "Continue using the browser..."
+                        },
+                        "position": 0,
+                        "characterId": 0,
+                        "partial": 0,
+                        "fieldFlags": {
+                            "duration": 1
+                        },
+                        "expressions": [],
+                        "animations": []
+                    },
+                    "uid": "9D9A6B2B51E5114F331BEBC5B8A9D34982A0",
+                    "indent": 0,
+                    "expanded": true
+                },
+                {
+                    "id": "gs.ShowMessage",
+                    "params": {
+                        "waitForCompletion": 1,
+                        "duration": 15,
+                        "expressionId": null,
+                        "custom": {
+                            "object": {
+                                "x": 0,
+                                "y": 0,
+                                "size": {
+                                    "width": 300,
+                                    "height": 100
+                                }
+                            }
+                        },
+                        "message": {
+                            "lcId": "5211DB757471F643D43941D51E4AE146D801",
+                            "defaultText": "Enter the code"
+                        },
+                        "position": 0,
+                        "characterId": 0,
+                        "partial": 0,
+                        "fieldFlags": {
+                            "duration": 1
+                        },
+                        "expressions": [],
+                        "animations": []
+                    },
+                    "uid": "7B8D3DF653FB384F597AE502A27CC079B645",
+                    "indent": 0,
+                    "expanded": true
+                },
+                {
+                    "id": "gs.InputNumber",
+                    "params": {
+                        "variable": {
+                            "name": "Patreon",
+                            "index": 2,
+                            "scope": 1,
+                            "changed": true,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "digits": 8,
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 0,
+                    "uid": "C2D794927659F1494618E8C669A2929D854A"
+                },
+                {
+                    "id": "gs.MessageSettings",
+                    "params": {
+                        "useCharacterColor": 0,
+                        "paragraphSpacing": 0,
+                        "backlog": 1,
+                        "bold": 0,
+                        "italic": 0,
+                        "linePadding": 6,
+                        "lineHeight": 0,
+                        "lineSpacing": 0,
+                        "smallCaps": 0,
+                        "underline": 0,
+                        "strikeThrough": 0,
+                        "autoErase": 1,
+                        "waitAtEnd": 0,
+                        "font": "Verdana",
+                        "size": 40,
+                        "outline": 0,
+                        "outlineSize": 4,
+                        "shadow": 0,
+                        "shadowOffsetX": 1,
+                        "shadowOffsetY": 1,
+                        "color": {
+                            "red": 255,
+                            "green": 255,
+                            "blue": 255,
+                            "alpha": 255
+                        },
+                        "outlineColor": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 255
+                        },
+                        "shadowColor": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 255
+                        },
+                        "fieldFlags": {
+                            "autoErase": 1,
+                            "waitAtEnd": 0,
+                            "backlog": 1,
+                            "font": 1,
+                            "size": 1
+                        }
+                    },
+                    "uid": "51D105537746A7470A7A0C77EBE4BC935C2F",
+                    "indent": 0
+                },
+                {
+                    "id": "gs.Script",
+                    "params": {
+                        "script": "GetPatronTwoStep()"
+                    },
+                    "uid": "0C880BD22E95F146939B915776C48809F4F7",
+                    "indent": 0,
+                    "expanded": true
+                },
+                {
+                    "id": "gs.Label",
+                    "params": {
+                        "name": "request"
+                    },
+                    "uid": "6655F06A06E0A149294879779A0A6FFA9ABB",
+                    "indent": 0
+                },
+                {
+                    "id": "gs.ShowMessage",
+                    "params": {
+                        "waitForCompletion": 1,
+                        "duration": 15,
+                        "expressionId": null,
+                        "custom": {
+                            "object": {
+                                "x": 0,
+                                "y": 0,
+                                "size": {
+                                    "width": 300,
+                                    "height": 100
+                                }
+                            }
+                        },
+                        "message": {
+                            "lcId": "F89F621B1E105347893BD1288E2AFC2BB8A1",
+                            "defaultText": "{S:3}Hold cancel button to stop......Waiting for request........"
+                        },
+                        "position": 0,
+                        "characterId": 0,
+                        "partial": 0,
+                        "fieldFlags": {
+                            "duration": 1
+                        },
+                        "expressions": [],
+                        "animations": []
+                    },
+                    "uid": "2EBC916B6C7C754E4689DCF3FF643F4D187D",
+                    "indent": 0,
+                    "expanded": true
+                },
+                {
+                    "id": "gs.Script",
+                    "params": {
+                        "script": "if(Input.keys[Input.B] == 1){GameManager.variableStore.numbers[ContentSupportInput] = 0}"
+                    },
+                    "uid": "9E06DAFD7766D44BEF3A2B70C3E77E7D3429",
+                    "indent": 0,
+                    "expanded": true
+                },
+                {
+                    "id": "gs.ClearMessage",
+                    "params": {
+                        "waitForCompletion": 1,
+                        "duration": 30,
+                        "fieldFlags": {
+                            "duration": 1
+                        }
+                    },
+                    "uid": "94C5C33E61A126458D28B354EEAF0AE86C21",
+                    "indent": 0
+                },
+                {
+                    "id": "gs.Condition",
+                    "params": {
+                        "variable": {
+                            "name": "Patreon",
+                            "index": 2,
+                            "scope": 1,
+                            "changed": true,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "numberValue": 0,
+                        "textValue": "",
+                        "switchValue": 0,
+                        "valueType": 0,
+                        "operation": 0,
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "uid": "383B371D7554C748485B82018D9EB65F413F",
+                    "indent": 0
+                },
+                {
+                    "id": "gs.JumpToLabel",
+                    "params": {
+                        "name": "end request"
+                    },
+                    "uid": "A4E39DFA95CD0045A298639336B026123670",
+                    "indent": 1
+                },
+                {
+                    "id": "gs.ConditionElse",
+                    "params": {},
+                    "uid": "C3CF5C8E4901F446BA992333B6F80A42E124",
+                    "indent": 0
+                },
+                {
+                    "id": "gs.JumpToLabel",
+                    "params": {
+                        "name": "request"
+                    },
+                    "uid": "6A0D93D84B38614BEE2A0E144CE54DA4DE0E",
+                    "indent": 1
+                },
+                {
+                    "id": "gs.Label",
+                    "params": {
+                        "name": "end request"
+                    },
+                    "uid": "3ABDC2257F930149CF08D5D15E4151474A46",
+                    "indent": 0
+                },
+                {
+                    "id": "gs.Script",
+                    "params": {
+                        "script": "getPatronPledgedStatus()"
+                    },
+                    "uid": "EB5E758367D92749B03913F46F11AD4C7C29",
+                    "indent": 0,
+                    "expanded": true
+                },
+                {
+                    "id": "gs.MessageSettings",
+                    "params": {
+                        "useCharacterColor": 0,
+                        "paragraphSpacing": 0,
+                        "backlog": 1,
+                        "bold": 0,
+                        "italic": 0,
+                        "linePadding": 6,
+                        "lineHeight": 0,
+                        "lineSpacing": 0,
+                        "smallCaps": 0,
+                        "underline": 0,
+                        "strikeThrough": 0,
+                        "autoErase": 1,
+                        "waitAtEnd": 1,
+                        "font": "Verdana",
+                        "size": 40,
+                        "outline": 0,
+                        "outlineSize": 4,
+                        "shadow": 0,
+                        "shadowOffsetX": 1,
+                        "shadowOffsetY": 1,
+                        "color": {
+                            "red": 255,
+                            "green": 255,
+                            "blue": 255,
+                            "alpha": 255
+                        },
+                        "outlineColor": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 255
+                        },
+                        "shadowColor": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 255
+                        },
+                        "fieldFlags": {
+                            "autoErase": 1,
+                            "waitAtEnd": 1,
+                            "backlog": 1,
+                            "font": 1,
+                            "size": 1,
+                            "color": 1,
+                            "useCharacterColor": 1,
+                            "bold": 1,
+                            "italic": 1,
+                            "smallCaps": 1,
+                            "underline": 1,
+                            "strikeThrough": 1,
+                            "lineHeight": 1,
+                            "lineSpacing": 1,
+                            "linePadding": 1,
+                            "paragraphSpacing": 1,
+                            "outline": 1,
+                            "outlineColor": 1,
+                            "outlineSize": 1,
+                            "shadow": 1,
+                            "shadowColor": 1,
+                            "shadowOffsetX": 1,
+                            "shadowOffsetY": 1
+                        }
+                    },
+                    "uid": "BC445AED3760694D6C9ABAD19395AF024E92",
+                    "indent": 0,
+                    "expanded": false
+                },
+                {
+                    "id": "gs.ShowMessage",
+                    "params": {
+                        "waitForCompletion": 1,
+                        "duration": 15,
+                        "expressionId": null,
+                        "custom": {
+                            "object": {
+                                "x": 0,
+                                "y": 0,
+                                "size": {
+                                    "width": 300,
+                                    "height": 100
+                                }
+                            }
+                        },
+                        "message": {
+                            "lcId": "2182FB324CA03442258AD892F4E71BAF7E0D",
+                            "defaultText": "You have pledged: {GN:4}"
+                        },
+                        "position": 0,
+                        "characterId": 0,
+                        "partial": 0,
+                        "fieldFlags": {
+                            "duration": 1
+                        },
+                        "expressions": [],
+                        "animations": []
+                    },
+                    "uid": "F6D55BC77BB60748987951C03CFABF708001",
+                    "indent": 0,
+                    "expanded": true
+                }
+            ],
+            "index": "82AF680340840541F5788806D814F7D7482C",
+            "booleanVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "numberVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "stringVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ]
+        },
+        "localizableStrings": {
+            "3725AE984BFA914F0B1BBCC5ED4D9F8F3C0F": {
+                "t": "Continue using the browser..."
+            },
+            "C00E3FB70277774A49390A4136FA890EC1EE": {
+                "t": "{S:3}Waiting for request........"
+            },
+            "8E70D2CB5C97484E2E4A6057FEF370A3DF07": {
+                "t": "You have pledged: {GN:4}"
+            },
+            "D04E26FE1F8C33408B693D24D5251064C1BF": {
+                "t": "Continue using the browser...",
+                "d": {
+                    "cid": 0,
+                    "eid": "9D9A6B2B51E5114F331BEBC5B8A9D34982A0"
+                }
+            },
+            "2182FB324CA03442258AD892F4E71BAF7E0D": {
+                "t": "You have pledged: {GN:4}",
+                "d": {
+                    "cid": 0,
+                    "eid": "F6D55BC77BB60748987951C03CFABF708001"
+                }
+            },
+            "5211DB757471F643D43941D51E4AE146D801": {
+                "t": "Enter the code",
+                "d": {
+                    "cid": 0,
+                    "eid": "7B8D3DF653FB384F597AE502A27CC079B645"
+                }
+            },
+            "F89F621B1E105347893BD1288E2AFC2BB8A1": {
+                "t": "{S:3}Hold cancel button to stop......Waiting for request........",
+                "d": {
+                    "cid": 0,
+                    "eid": "2EBC916B6C7C754E4689DCF3FF643F4D187D"
+                }
+            }
+        },
+        "parentId": "D5D7A4976523D64AC6389AD6D0D29A1BF81B"
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

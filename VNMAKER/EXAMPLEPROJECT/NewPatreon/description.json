@@ -1,0 +1,7 @@
+{ 
+    "name": "Sample 720p (Action-based UI)", 
+    "default": true,
+    "group": "com.degica.vnm",
+    "order": 1 
+}    
+

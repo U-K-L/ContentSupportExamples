@@ -2,7 +2,7 @@
 var EmailContentSupport = 'Kuroten01@gmail.com' 
 //Enter the client name from the website here!
 var AppNameContentSupport = 'ContentSupport'
-//Set this to false to internal browser. Set to true to open external browser. SHOULD ALWAYS BE TRUE FOR HTML GAMES.
+//Set this to true for internal browser. Set to false to open external browser. SHOULD ALWAYS BE TRUE FOR HTML GAMES.
 var EnabledHTML = true
 
 //The global variable which will be used for the common event.

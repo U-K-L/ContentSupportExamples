@@ -1,0 +1,22 @@
+{
+    "uid": "D5D7A4976523D64AC6389AD6D0D29A1BF81B",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Patreon",
+        "type": "data_record",
+        "category": "commonEvents",
+        "isFolder": true,
+        "parentId": "ROOT",
+        "data": {
+            "name": "Patreon",
+            "isFolder": true
+        },
+        "order": 1
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}
